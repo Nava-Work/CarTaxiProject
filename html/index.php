@@ -7,7 +7,7 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
-  <?php include 'css.php'; ?>
+  <?php include 'assets/navigation/css.php'; ?>
   </head>
   <body>
     <div class="main-wrapper">
