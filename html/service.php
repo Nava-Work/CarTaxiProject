@@ -11,8 +11,7 @@
           <div class="section-heading" data-aos="fade-down">
             <h2>How It Works</h2>
             <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s,
+            Experience the seamless process of booking a City Taxi. We prioritize your convenience, ensuring a reliable, fast, and comfortable taxi service with our modern fleet, decade-long expertise, and stellar reputation.
             </p>
           </div>
           <!-- /Heading title -->
@@ -30,9 +29,7 @@
                   <div class="services-content">
                     <h3>1. Choose Locations</h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Select your starting point and destination effortlessly. City Taxi allows you to set your journey with just a few clicks.
                     </p>
                   </div>
                 </div>
@@ -49,9 +46,7 @@
                   <div class="services-content">
                     <h3>2. Pick-Up Locations</h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Our drivers will pick you up from your specified locations promptly. We value your time and ensure a timely and reliable service.
                     </p>
                   </div>
                 </div>
@@ -68,9 +63,7 @@
                   <div class="services-content">
                     <h3>3. Book your Car</h3>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s,
+                    Complete the booking process seamlessly. Choose your preferred vehicle and confirm your journey with City Taxi - your reliable transportation partner.
                     </p>
                   </div>
                 </div>

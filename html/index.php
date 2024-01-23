@@ -31,7 +31,7 @@
       
 
       <!-- Popular Services -->
-      <?php include 'popular.php';?>
+    
       
 
       <!-- Popular Cartypes -->
@@ -49,15 +49,6 @@
       <!-- Why Choose Us -->
       <?php include 'chooseUs.php'; ?>
   
-      
-      <!-- About us Testimonials -->
-        <?php include 'about-us-Testimonials.php';?>
-      
-      <!-- FAQ  -->
-      <?php include 'faqNew.php'; ?>
-  
-      <!-- Pricing Plan -->
-      <?php include 'pricingPlan.php'; ?>
 
       <!-- Footer -->
       <?php include 'footer.php'; ?>

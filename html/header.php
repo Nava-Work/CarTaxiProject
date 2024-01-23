@@ -12,18 +12,19 @@
               <a href="index.php" class="navbar-brand logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" width="400"/>
               </a>
-              <a href="index.php" class="navbar-brand logo-small">
+              <a href="index.php" class="navbar-brand logo-small" >
                 <img
-                  src="assets/img/logo-small.png"
+                  src="assets/img/logo-2.png"
                   class="img-fluid"
                   alt="Logo"
+                  width="60"
                 />
               </a>
             </div>
             <div class="main-menu-wrapper">
               <div class="menu-header">
                 <a href="index.php" class="menu-logo">
-                  <img src="assets/img/logo.svg" class="img-fluid" alt="Logo" />
+                  <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
                 </a>
                 <a
                   id="menu_close"
@@ -105,13 +106,13 @@
                   <a href="register.php">Sign Up</a>
                 </li>
                 <li class="login-link">
-                  <a href="login.php">Sign In</a>
+                  <a href="login-as.php">Sign In</a>
                 </li>
               </ul>
             </div>
             <ul class="nav header-navbar-rht">
               <li class="nav-item">
-                <a class="nav-link header-login" href="login.php"
+                <a class="nav-link header-login" href="login-as.php"
                   ><span><i class="fa-regular fa-user"></i></span>Sign In</a
                 >
               </li>

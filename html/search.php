@@ -2,7 +2,7 @@
         <div class="container">
           <div class="search-box-banner">
             <form
-              action="https://dreamsrent.dreamstechnologies.com/html/listing-grid.html"
+              action="listing-grid.php"
             >
               <ul class="align-items-center">
                 <li class="column-group-main">
@@ -28,7 +28,7 @@
                         <input
                           type="text"
                           class="form-control datetimepicker"
-                          placeholder="04/11/2023"
+                          placeholder="04/11/2024"
                         />
                         <span><i class="feather-calendar"></i></span>
                       </div>
@@ -55,7 +55,7 @@
                         <input
                           type="text"
                           class="form-control datetimepicker"
-                          placeholder="04/11/2023"
+                          placeholder="04/11/2024"
                         />
                         <span><i class="feather-calendar"></i></span>
                       </div>

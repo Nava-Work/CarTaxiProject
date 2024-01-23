@@ -179,7 +179,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="copyright-text">
-                    <p>© 2023 City Taxi. All Rights Reserved.</p>
+                    <p>© 2024 City Taxi. All Rights Reserved.</p>
                   </div>
                 </div>
                 <div class="col-md-6">

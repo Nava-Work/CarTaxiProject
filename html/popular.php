@@ -96,7 +96,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -119,7 +119,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -193,7 +193,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -207,7 +207,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -230,7 +230,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -304,7 +304,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -318,7 +318,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -341,7 +341,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -416,7 +416,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -430,7 +430,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -453,7 +453,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -530,7 +530,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -544,7 +544,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -567,7 +567,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -643,7 +643,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -657,7 +657,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -680,7 +680,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -755,7 +755,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -769,7 +769,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -792,7 +792,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -868,7 +868,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -882,7 +882,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -905,7 +905,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -980,7 +980,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -994,7 +994,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -1017,7 +1017,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1092,7 +1092,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1109,7 +1109,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -1132,7 +1132,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1207,7 +1207,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1220,7 +1220,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -1243,7 +1243,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -1320,7 +1320,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1334,7 +1334,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -1357,7 +1357,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -1433,7 +1433,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1447,7 +1447,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -1470,7 +1470,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1545,7 +1545,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1559,7 +1559,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -1582,7 +1582,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -1658,7 +1658,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1672,7 +1672,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -1695,7 +1695,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1770,7 +1770,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1784,7 +1784,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -1807,7 +1807,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1881,7 +1881,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -1895,7 +1895,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -1918,7 +1918,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -1992,7 +1992,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2006,7 +2006,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -2029,7 +2029,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2104,7 +2104,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2121,7 +2121,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -2144,7 +2144,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2219,7 +2219,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2233,7 +2233,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -2256,7 +2256,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2330,7 +2330,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2344,7 +2344,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -2367,7 +2367,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2441,7 +2441,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2455,7 +2455,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -2478,7 +2478,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2553,7 +2553,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2567,7 +2567,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -2590,7 +2590,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -2667,7 +2667,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2681,7 +2681,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -2704,7 +2704,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -2780,7 +2780,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2794,7 +2794,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -2817,7 +2817,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -2892,7 +2892,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -2906,7 +2906,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -2929,7 +2929,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -3005,7 +3005,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3019,7 +3019,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -3042,7 +3042,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -3117,7 +3117,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3134,7 +3134,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -3157,7 +3157,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -3231,7 +3231,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3245,7 +3245,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -3268,7 +3268,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -3342,7 +3342,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3356,7 +3356,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -3379,7 +3379,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -3454,7 +3454,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3468,7 +3468,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -3491,7 +3491,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -3568,7 +3568,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3582,7 +3582,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -3605,7 +3605,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -3681,7 +3681,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3695,7 +3695,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -3718,7 +3718,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -3793,7 +3793,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3807,7 +3807,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -3830,7 +3830,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -3906,7 +3906,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -3920,7 +3920,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -3943,7 +3943,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4018,7 +4018,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4032,7 +4032,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -4055,7 +4055,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4130,7 +4130,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4147,7 +4147,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -4170,7 +4170,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4244,7 +4244,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4258,7 +4258,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -4281,7 +4281,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4355,7 +4355,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4369,7 +4369,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -4392,7 +4392,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4467,7 +4467,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4481,7 +4481,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -4504,7 +4504,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -4581,7 +4581,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4595,7 +4595,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -4618,7 +4618,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -4694,7 +4694,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4708,7 +4708,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -4731,7 +4731,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -4806,7 +4806,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4820,7 +4820,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -4843,7 +4843,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -4919,7 +4919,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -4933,7 +4933,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -4956,7 +4956,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5031,7 +5031,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5045,7 +5045,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -5068,7 +5068,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5143,7 +5143,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5160,7 +5160,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-08.jpg"
                           class="img-fluid"
@@ -5183,7 +5183,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Tacoma 4WD</a>
+                          <a href="listing-details.php">Toyota Tacoma 4WD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5258,7 +5258,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5272,7 +5272,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-01.jpg"
                           class="img-fluid"
@@ -5295,7 +5295,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Toyota Camry SE 350</a>
+                          <a href="listing-details.php">Toyota Camry SE 350</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5369,7 +5369,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5383,7 +5383,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-02.jpg"
                           class="img-fluid"
@@ -5406,7 +5406,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Kia Soul 2016</a>
+                          <a href="listing-details.php">Kia Soul 2016</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5480,7 +5480,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5494,7 +5494,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-03.jpg"
                           class="img-fluid"
@@ -5517,7 +5517,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Audi A3 2019 new</a>
+                          <a href="listing-details.php">Audi A3 2019 new</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5592,7 +5592,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5606,7 +5606,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-04.jpg"
                           class="img-fluid"
@@ -5629,7 +5629,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Ferrari 458 MM Speciale</a
                           >
                         </h3>
@@ -5706,7 +5706,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5720,7 +5720,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-05.jpg"
                           class="img-fluid"
@@ -5743,7 +5743,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >2018 Chevrolet Camaro</a
                           >
                         </h3>
@@ -5819,7 +5819,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5833,7 +5833,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-06.jpg"
                           class="img-fluid"
@@ -5856,7 +5856,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura Sport Version</a>
+                          <a href="listing-details.php">Acura Sport Version</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -5931,7 +5931,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -5945,7 +5945,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-07.jpg"
                           class="img-fluid"
@@ -5968,7 +5968,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html"
+                          <a href="listing-details.php"
                             >Chevrolet Pick Truck 3.5L</a
                           >
                         </h3>
@@ -6044,7 +6044,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
@@ -6058,7 +6058,7 @@
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-down">
                   <div class="listing-item">
                     <div class="listing-img">
-                      <a href="listing-details.html">
+                      <a href="listing-details.php">
                         <img
                           src="assets/img/cars/car-09.jpg"
                           class="img-fluid"
@@ -6081,7 +6081,7 @@
                           />
                         </a>
                         <h3 class="listing-title">
-                          <a href="listing-details.html">Acura RDX FWD</a>
+                          <a href="listing-details.php">Acura RDX FWD</a>
                         </h3>
                         <div class="list-rating">
                           <i class="fas fa-star filled"></i>
@@ -6156,7 +6156,7 @@
                         </div>
                       </div>
                       <div class="listing-button">
-                        <a href="listing-details.html" class="btn btn-order"
+                        <a href="listing-details.php" class="btn btn-order"
                           ><span><i class="feather-calendar me-2"></i></span
                           >Rent Now</a
                         >
