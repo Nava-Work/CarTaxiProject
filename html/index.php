@@ -12,64 +12,64 @@
   <body>
     <div class="main-wrapper">
       <!-- Header -->
-      <?php include 'header.php'; ?>
+      <?php include 'assets/navigation/header.php'; ?>
 
       
       <!-- Banner -->
-      <?php include 'banner.php'; ?>
+      <?php include 'assets/navigation/banner.php'; ?>
       
      
 
       <!-- Search -->
-      <?php include 'search.php'; ?>
+      <?php include 'assets/navigation/search.php'; ?>
       
       
 
       <!-- services -->
-      <?php include 'service.php'; ?>
+      <?php include 'assets/navigation/service.php'; ?>
       
       
 
       <!-- Popular Services -->
-      <?php include 'popular.php';?>
+      <?php include 'assets/navigation/popular.php';?>
       
 
       <!-- Popular Cartypes -->
-      <?php include 'popularCarType.php'; ?>
+      <?php include 'assets/navigation/popularCarType.php'; ?>
     
 
       <!-- Facts By The Numbers -->
       
-      <?php include 'factByTheNumber.php'; ?>
+      <?php include 'assets/navigation/factByTheNumber.php'; ?>
 
       <!-- Rental deals -->
-      <?php include 'rentalDeals.php'; ?>
+      <?php include 'assets/navigation/rentalDeals.php'; ?>
  
       
       <!-- Why Choose Us -->
-      <?php include 'chooseUs.php'; ?>
+      <?php include 'assets/navigation/chooseUs.php'; ?>
   
       
       <!-- About us Testimonials -->
-        <?php include 'about-us-Testimonials';?>
+        <?php include 'assets/navigation/about-us-Testimonials.php';?>
       
       <!-- FAQ  -->
-      <?php include 'faqNew.php'; ?>
+      <?php include 'assets/navigation/faqNew.php'; ?>
   
       <!-- Pricing Plan -->
-      <?php include 'pricingPlan.php'; ?>
+      <?php include 'assets/navigation/pricingPlan.php'; ?>
 
       <!-- Footer -->
-      <?php include 'footer.php'; ?>
+      <?php include 'assets/navigation/footer.php'; ?>
     </div>
 
     <!-- scrollToTop start -->
-    <?php include 'scrollTop.php'; ?>
+    <?php include 'assets/navigation/scrollTop.php'; ?>
 
     <!-- scrollToTop end -->
 
 		<!-- JS -->
-		<?php include 'script.php'; ?>
+		<?php include 'assets/navigation/script.php'; ?>
    
   </body>
 </html>
