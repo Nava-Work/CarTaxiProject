@@ -1,35 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/forgot-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:41 GMT -->
-<head>
-		<meta charset="utf-8">
+  <head>
+  	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>Dreams Rent | Template</title>
+		<title>City Taxi - Cab Service</title>
 		
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.png">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-		
-		<!-- Fearther CSS -->
-		<link rel="stylesheet" href="assets/css/feather.css">
-		
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-	</head>
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+  	<?php include 'css.php'; ?>
 	<body>
 	
 		<!-- Main Wrapper -->
 		<div class="main-wrapper login-body">
 			<!-- Header -->
 			<header class="log-header">
-				<a href="index.html"><img class="img-fluid logo-dark" src="assets/img/logo.svg" alt="Logo"></a>
+				<a href="index.php"><img class="img-fluid logo-dark" src="assets/img/logo.png" alt="Logo"></a>
 			</header>
 			<!-- /Header -->
 
@@ -38,48 +23,20 @@
 					<div class="login-auth">
 						<div class="login-auth-wrap">
 							<div class="sign-group">
-								<a href="index.html" class="btn sign-up"><span><i class="fe feather-corner-down-left" aria-hidden="true"></i></span> Back To Home</a>
+								<a href="index.php" class="btn sign-up"><span><i class="fe feather-corner-down-left" aria-hidden="true"></i></span> Back To Home</a>
 							</div>
 							<h1>Forgot Password</h1>
 							<p class="account-subtitle">Enter your email and we will send you a link to reset your password.</p>								
-							<form action="https://dreamsrent.dreamstechnologies.com/html/index.html">
+							<form action="index.php">
 								<div class="input-block">
 									<label class="form-label">Email Address <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="">
 								</div>
-								<a href="reset-password.html" class="btn btn-outline-light w-100 btn-size">Save Changes</a>								
+								<a href="reset-password.php" class="btn btn-outline-light w-100 btn-size">Save Changes</a>								
 							</form>							
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<!-- Footer -->
-			<footer class="log-footer">				
-				<div class="container-fluid">					
-					<!-- Copyright -->
-					<div class="copyright">
-						<div class="copyright-text">
-							<p>© 2023 Dreams Rent. All Rights Reserved.</p>
-						</div>
-					</div>
-					<!-- /Copyright -->						
-				</div>			
-			</footer>
-			<!-- /Footer -->
-		</div>
-		<!-- /Main Wrapper -->
-		
-		<!-- jQuery -->
-		<script src="assets/js/jquery-3.7.1.min.js"></script>
-		
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		
-		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
-
-	</body>
-
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/forgot-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:41 GMT -->
-</html>
+			<?php include 'log-process-footer.php'; ?>

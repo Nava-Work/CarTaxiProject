@@ -16,7 +16,7 @@
 		<div class="main-wrapper login-body">
 			<!-- Header -->
 			<header class="log-header">
-				<a href="index.php"><img class="img-fluid logo-dark" src="assets/img/logo.svg" alt="Logo"></a>
+				<a href="index.php"><img class="img-fluid logo-dark" src="assets/img/logo.png" alt="Logo"></a>
 			</header>
 			<!-- /Header -->
 
@@ -70,22 +70,4 @@
 				</div>
 			</div>
 			
-			<!-- Footer -->
-			<footer class="log-footer">				
-				<div class="container-fluid">					
-					<!-- Copyright -->
-					<div class="copyright">
-						<div class="copyright-text">
-							<p>© 2023 Dreams Rent. All Rights Reserved.</p>
-						</div>
-					</div>
-					<!-- /Copyright -->						
-				</div>			
-			</footer>
-			<!-- /Footer -->
-		</div>
-		<!-- /Main Wrapper -->
-		<!-- JS -->
-		<?php include 'log-sign-scripts.php'; ?>
-	</body>
-</html>
+<?php include 'log-process-footer.php'; ?>

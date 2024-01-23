@@ -7,69 +7,69 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
-  <?php include 'assets/navigation/css.php'; ?>
+  <?php include 'css.php'; ?>
   </head>
   <body>
     <div class="main-wrapper">
       <!-- Header -->
-      <?php include 'assets/navigation/header.php'; ?>
+      <?php include 'header.php'; ?>
 
       
       <!-- Banner -->
-      <?php include 'assets/navigation/banner.php'; ?>
+      <?php include 'banner.php'; ?>
       
      
 
       <!-- Search -->
-      <?php include 'assets/navigation/search.php'; ?>
+      <?php include 'search.php'; ?>
       
       
 
       <!-- services -->
-      <?php include 'assets/navigation/service.php'; ?>
+      <?php include 'service.php'; ?>
       
       
 
       <!-- Popular Services -->
-      <?php include 'assets/navigation/popular.php';?>
+      <?php include 'popular.php';?>
       
 
       <!-- Popular Cartypes -->
-      <?php include 'assets/navigation/popularCarType.php'; ?>
+      <?php include 'popularCarType.php'; ?>
     
 
       <!-- Facts By The Numbers -->
       
-      <?php include 'assets/navigation/factByTheNumber.php'; ?>
+      <?php include 'factByTheNumber.php'; ?>
 
       <!-- Rental deals -->
-      <?php include 'assets/navigation/rentalDeals.php'; ?>
+      <?php include 'rentalDeals.php'; ?>
  
       
       <!-- Why Choose Us -->
-      <?php include 'assets/navigation/chooseUs.php'; ?>
+      <?php include 'chooseUs.php'; ?>
   
       
       <!-- About us Testimonials -->
-        <?php include 'assets/navigation/about-us-Testimonials.php';?>
+        <?php include 'about-us-Testimonials.php';?>
       
       <!-- FAQ  -->
-      <?php include 'assets/navigation/faqNew.php'; ?>
+      <?php include 'faqNew.php'; ?>
   
       <!-- Pricing Plan -->
-      <?php include 'assets/navigation/pricingPlan.php'; ?>
+      <?php include 'pricingPlan.php'; ?>
 
       <!-- Footer -->
-      <?php include 'assets/navigation/footer.php'; ?>
+      <?php include 'footer.php'; ?>
     </div>
 
     <!-- scrollToTop start -->
-    <?php include 'assets/navigation/scrollTop.php'; ?>
+    <?php include 'scrollTop.php'; ?>
 
     <!-- scrollToTop end -->
 
 		<!-- JS -->
-		<?php include 'assets/navigation/script.php'; ?>
+		<?php include 'script.php'; ?>
    
   </body>
 </html>
