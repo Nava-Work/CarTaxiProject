@@ -115,14 +115,7 @@
                     <div class="footer-address">
                       <span><i class="feather-mail"></i></span>
                       <div class="addr-info">
-                        <a
-                          href="#"
-                          ><span
-                            class="__cf_email__"
-                            data-cfemail="c7b4b2b7b7a8b5b387a2bfa6aab7aba2e9a4a8aa"
-                            >[email&#160;protected]</span
-                          ></a
-                        >
+                      <a href="mailto:">citytaxi@hotmail.com</a>
                       </div>
                     </div>
                     <div class="update-form">
