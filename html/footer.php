@@ -18,18 +18,18 @@
                           <a href="javascript:void(0)">Shop Toyota</a>
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Dreamsrentals USA</a>
+                          <a href="javascript:void(0)">City Taxi Sri Lanka</a>
                         </li>
                         <li>
                           <a href="javascript:void(0)"
-                            >Dreamsrentals Worldwide</a
+                            >City Taxi Worldwide</a
                           >
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Dreamsrentals Racing</a>
+                          <a href="javascript:void(0)">City Taxi Racing</a>
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Dreamsrentals Racing</a>
+                          <a href="javascript:void(0)">City Taxi Racing</a>
                         </li>
                         <li>
                           <a href="javascript:void(0)">Virtual Auto Show</a>
@@ -80,7 +80,7 @@
                           <a href="javascript:void(0)">Champaigns</a>
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Dreamsrental Dealers</a>
+                          <a href="javascript:void(0)">CityTaxi Dealers</a>
                         </li>
                         <li>
                           <a href="javascript:void(0)">Deals and Incentive</a>
@@ -90,11 +90,11 @@
                         </li>
                         <li>
                           <a href="javascript:void(0)"
-                            >Dreamsrental Insurance</a
+                            >City Taxi Insurance</a
                           >
                         </li>
                         <li>
-                          <a href="javascript:void(0)">Dreamsrental Care</a>
+                          <a href="javascript:void(0)">City Taxi Care</a>
                         </li>
                       </ul>
                     </div>
@@ -109,14 +109,14 @@
                     <div class="footer-address">
                       <span><i class="feather-phone-call"></i></span>
                       <div class="addr-info">
-                        <a href="tel:+1(888)7601940">+ 1 (888) 760 1940</a>
+                        <a href="tel:#">+ 94 033838922</a>
                       </div>
                     </div>
                     <div class="footer-address">
                       <span><i class="feather-mail"></i></span>
                       <div class="addr-info">
                         <a
-                          href="https://dreamsrent.dreamstechnologies.com/cdn-cgi/l/email-protection#91e2e4e1e1fee3e5d1f4e9f0fce1fdf4bff2fefc"
+                          href="#"
                           ><span
                             class="__cf_email__"
                             data-cfemail="c7b4b2b7b7a8b5b387a2bfa6aab7aba2e9a4a8aa"
@@ -186,7 +186,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6">
                   <div class="copyright-text">
-                    <p>© 2023 Dreams Rent. All Rights Reserved.</p>
+                    <p>© 2023 City Taxi. All Rights Reserved.</p>
                   </div>
                 </div>
                 <div class="col-md-6">

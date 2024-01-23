@@ -9,10 +9,10 @@
                   <span></span>
                 </span>
               </a>
-              <a href="index.html" class="navbar-brand logo">
+              <a href="index.php" class="navbar-brand logo">
                 <img src="assets/img/logo.svg" class="img-fluid" alt="Logo" />
               </a>
-              <a href="index.html" class="navbar-brand logo-small">
+              <a href="index.php" class="navbar-brand logo-small">
                 <img
                   src="assets/img/logo-small.png"
                   class="img-fluid"
@@ -22,7 +22,7 @@
             </div>
             <div class="main-menu-wrapper">
               <div class="menu-header">
-                <a href="index.html" class="menu-logo">
+                <a href="index.php" class="menu-logo">
                   <img src="assets/img/logo.svg" class="img-fluid" alt="Logo" />
                 </a>
                 <a
@@ -34,29 +34,29 @@
                 ></a>
               </div>
               <ul class="main-nav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li class="has-submenu">
                   <a href="#">Listings <i class="fas fa-chevron-down"></i></a>
                   <ul class="submenu">
-                    <li><a href="listing-grid.html">Listing Grid</a></li>
-                    <li><a href="listing-list.html">Listing List</a></li>
-                    <li><a href="listing-details.html">Listing Details</a></li>
+                    <li><a href="listing-grid.php">Listing Grid</a></li>
+                    <li><a href="listing-list.php">Listing List</a></li>
+                    <li><a href="listing-details.php">Listing Details</a></li>
                   </ul>
                 </li>
                 <li class="has-submenu">
                   <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
                   <ul class="submenu">
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
                     <li class="has-submenu">
                       <a href="javascript:void(0);">Authentication</a>
                       <ul class="submenu">
-                        <li><a href="register.html">Signup</a></li>
-                        <li><a href="login.html">Signin</a></li>
+                        <li><a href="register.php">Signup</a></li>
+                        <li><a href="login.php">Signin</a></li>
                         <li>
-                          <a href="forgot-password.html">Forgot Password</a>
+                          <a href="forgot-password.php">Forgot Password</a>
                         </li>
                         <li>
-                          <a href="reset-password.html">Reset Password</a>
+                          <a href="reset-password.php">Reset Password</a>
                         </li>
                       </ul>
                     </li>
@@ -64,59 +64,59 @@
                       <a href="javascript:void(0);">Booking</a>
                       <ul class="submenu">
                         <li>
-                          <a href="booking-payment.html">Booking Checkout</a>
+                          <a href="booking-payment.php">Booking Checkout</a>
                         </li>
-                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="booking.php">Booking</a></li>
                         <li>
-                          <a href="invoice-details.html">Invoice Details</a>
+                          <a href="invoice-details.php">Invoice Details</a>
                         </li>
                       </ul>
                     </li>
                     <li class="has-submenu">
                       <a href="javascript:void(0);">Error Page</a>
                       <ul class="submenu">
-                        <li><a href="error-404.html">404 Error</a></li>
-                        <li><a href="error-500.html">500 Error</a></li>
+                        <li><a href="error-404.php">404 Error</a></li>
+                        <li><a href="error-500.php">500 Error</a></li>
                       </ul>
                     </li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="our-team.html">Our Team</a></li>
-                    <li><a href="testimonial.html">Testimonials</a></li>
+                    <li><a href="pricing.php">Pricing</a></li>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="our-team.php">Our Team</a></li>
+                    <li><a href="testimonial.php">Testimonials</a></li>
                     <li>
-                      <a href="terms-condition.html">Terms & Conditions</a>
+                      <a href="terms-condition.php">Terms & Conditions</a>
                     </li>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a href="maintenance.html">Maintenance</a></li>
-                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                    <li><a href="maintenance.php">Maintenance</a></li>
+                    <li><a href="coming-soon.php">Coming Soon</a></li>
                   </ul>
                 </li>
                 <li class="has-submenu">
                   <a href="#">Blog <i class="fas fa-chevron-down"></i></a>
                   <ul class="submenu">
-                    <li><a href="blog-list.html">Blog List</a></li>
-                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                    <li><a href="blog-details.html">Blog Details</a></li>
+                    <li><a href="blog-list.php">Blog List</a></li>
+                    <li><a href="blog-grid.php">Blog Grid</a></li>
+                    <li><a href="blog-details.php">Blog Details</a></li>
                   </ul>
                 </li>
-                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="contact-us.php">Contact</a></li>
                 <li class="login-link">
-                  <a href="register.html">Sign Up</a>
+                  <a href="register.php">Sign Up</a>
                 </li>
                 <li class="login-link">
-                  <a href="login.html">Sign In</a>
+                  <a href="login.php">Sign In</a>
                 </li>
               </ul>
             </div>
             <ul class="nav header-navbar-rht">
               <li class="nav-item">
-                <a class="nav-link header-login" href="login.html"
+                <a class="nav-link header-login" href="login.php"
                   ><span><i class="fa-regular fa-user"></i></span>Sign In</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link header-reg" href="register.html"
+                <a class="nav-link header-reg" href="register.php"
                   ><span><i class="fa-solid fa-lock"></i></span>Sign Up</a
                 >
               </li>
