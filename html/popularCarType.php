@@ -4,8 +4,7 @@
           <div class="section-heading" data-aos="fade-down">
             <h2>Most Popular Cartypes</h2>
             <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s,
+            Explore our diverse range of popular cartypes, each designed to cater to your unique preferences and needs.
             </p>
           </div>
           <!-- /Heading title -->
@@ -97,7 +96,7 @@
           <!-- View More -->
           <div class="view-all text-center" data-aos="fade-down">
             <a
-              href="listing-grid.html"
+              href="listing-grid.php"
               class="btn btn-view d-inline-flex align-items-center"
               >View all Cars
               <span><i class="feather-arrow-right ms-2"></i></span
