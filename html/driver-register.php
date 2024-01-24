@@ -9,9 +9,10 @@
         $email = $_POST["email"];
         $phonenum = $_POST["phone_number"];
         $regtime = $_POST["regTime"];
+		$nic = $_POST["NIC"];
         
 
-            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regTime) VALUES ('{$did}','{$name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
+            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,NIC,phone_number,regTime) VALUES ('{$did}','{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}','{$regtime}')";
 
             $res = $connect->query($qry);
  
@@ -65,7 +66,7 @@
 								</div>
                 <div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
-									<input type="number" class="form-control"  placeholder="">
+									<input type="number" class="form-control"  placeholder="" name="NIC">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
