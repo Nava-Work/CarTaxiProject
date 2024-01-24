@@ -31,7 +31,7 @@
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
 							<form action="index.php">
 								<div class="input-block">
-									<label class="form-label">Email <span class="text-danger">*</span></label>
+									<label class="form-label">Username or Email <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="">
 								</div>
 								<div class="input-block">
