@@ -8,7 +8,7 @@
         $password = $_POST["password"];
         $email = $_POST["email"];
         $phonenum = $_POST["phone_number"];
-        $regtime = $_POST["regtime"];
+        $regtime = $_POST["regTime"];
         
         if(empty($did) && empty($name) && empty($uname) && empty($password) && empty($email) && empty($phonenum) && empty($regtime) && empty($address)){
 
@@ -16,7 +16,7 @@
                
         }else{
 
-            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regtime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
+            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regTime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
 
             $res = $connect->query($qry);
  
