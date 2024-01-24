@@ -12,7 +12,7 @@
 		$nic = $_POST["NIC"];
         
 
-            $qry = "INSERT INTO drivers (name,username,password,email,NIC,phone_number,regTime) VALUES ('{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}','{$regtime}')";
+            $qry = "INSERT INTO drivers (name,username,password,email,NIC,phone_number) VALUES ('{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}')";
 
             $res = $connect->query($qry);
  
