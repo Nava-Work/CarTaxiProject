@@ -11,8 +11,8 @@
           <div class="section-heading" data-aos="fade-down">
             <h2>Why Choose Us</h2>
             <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s,
+            Extensive network of pickup locations to cater to your convenience. Our cross-platform
+                                    initiatives ensure accessibility and availability.
             </p>
           </div>
           <!-- /Heading title -->

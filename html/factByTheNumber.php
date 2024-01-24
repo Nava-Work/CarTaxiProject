@@ -18,8 +18,7 @@
           <div class="section-heading" data-aos="fade-down">
             <h2 class="title text-white">Facts By The Numbers</h2>
             <p class="description text-white">
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s,
+            Discover our achievements and impact through the numbers that define City Taxi's success.
             </p>
           </div>
           <!-- /Heading title -->

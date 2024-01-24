@@ -27,7 +27,7 @@
 							<form action="index.php">
 								<a href="register.php" class="btn btn-outline-light w-100 btn-size mt-1">Passenger</a>
                 <a href="driver-register.php" class="btn btn-outline-light w-100 btn-size mt-1">Driver</a>
-                <div class="text-center dont-have">Alreay have an account<a href="login-as.php">Login</a></div>
+                <div class="text-center dont-have">Alreay have an account? <a href="login-as.php">Login</a></div>
 							</form>							
 						</div>
 					</div>

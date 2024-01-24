@@ -41,10 +41,6 @@
       <!-- Facts By The Numbers -->
       
       <?php include 'factByTheNumber.php'; ?>
-
-      <!-- Rental deals -->
-      <?php include 'rentalDeals.php'; ?>
- 
       
       <!-- Why Choose Us -->
       <?php include 'chooseUs.php'; ?>

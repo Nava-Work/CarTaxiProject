@@ -64,7 +64,7 @@
 									<a href="#" class="d-flex align-items-center justify-content-center input-block btn google-login w-100"><span><img src="assets/img/icons/facebook.svg" class="img-fluid" alt="Facebook"></span>Log in with Facebook</a>
 								</div>
 								<!-- /Social Login -->
-								<div class="text-center dont-have">Don't have an account yet? <a href="register.php">Register</a></div>
+								<div class="text-center dont-have">Don't have an account yet? <a href="register-as.php">Register</a></div>
 							</form>							
 						</div>
 					</div>
