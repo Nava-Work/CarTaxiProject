@@ -29,10 +29,6 @@ require 'database-config.php';
 			echo "Unable to insert data: " . mysqli_error($conn);
 		}
 	}
-
-
-
-
 ?>
 
 
