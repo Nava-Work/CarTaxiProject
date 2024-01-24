@@ -51,8 +51,8 @@
                     <li class="has-submenu">
                       <a href="javascript:void(0);">Authentication</a>
                       <ul class="submenu">
-                        <li><a href="register.php">Signup</a></li>
-                        <li><a href="login.php">Signin</a></li>
+                        <li><a href="register-as.php">Signup</a></li>
+                        <li><a href="login-as.php">Signin</a></li>
                         <li>
                           <a href="forgot-password.php">Forgot Password</a>
                         </li>
@@ -103,7 +103,7 @@
                 </li>
                 <li><a href="contact-us.php">Contact</a></li>
                 <li class="login-link">
-                  <a href="register.php">Sign Up</a>
+                  <a href="register-as.php">Sign Up</a>
                 </li>
                 <li class="login-link">
                   <a href="login-as.php">Sign In</a>

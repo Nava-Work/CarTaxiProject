@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
@@ -8,7 +8,6 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<?php include 'css.php'; ?>
-	</head>
 	</head>
 	<body>
 	
@@ -27,11 +26,27 @@
 							<div class="sign-group">
 								<a href="index.php" class="btn sign-up"><span><i class="fe feather-corner-down-left" aria-hidden="true"></i></span> Back To Home</a>
 							</div>
-							<h1>Sign In</h1>
+							<h1>Sign Up</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
 							<form action="index.php">
+              <div class="input-block">
+									<label class="form-label">Name <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="">
+								</div>
+                <div class="input-block">
+									<label class="form-label">Contact No <span class="text-danger">*</span></label>
+									<input type="tel" class="form-control"  placeholder="">
+								</div>
+                <div class="input-block">
+									<label class="form-label">NIC <span class="text-danger">*</span></label>
+									<input type="number" class="form-control"  placeholder="">
+								</div>
 								<div class="input-block">
-									<label class="form-label">Username or Email <span class="text-danger">*</span></label>
+									<label class="form-label">Username <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="">
+								</div>
+								<div class="input-block">
+									<label class="form-label">Email <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="">
 								</div>
 								<div class="input-block">
@@ -40,20 +55,11 @@
 										<input type="password" class="form-control pass-input" placeholder="">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
-								</div>								
-								<div class="input-block">
-									<a class="forgot-link" href="forgot-password.php">Forgot Password ?</a>
-								</div>
-								<div class="input-block m-0">
-									<label class="custom_check d-inline-flex"><span>Remember me</span>
-										<input type="checkbox" name="remeber">
-										<span class="checkmark"></span>
-									</label>
-								</div>
-								<a href="index.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign In</a>
+								</div>	
+								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign Up</a>
 								<div class="login-or">
 									<span class="or-line"></span>
-									<span class="span-or-log">Or, log in with your email</span>
+									<span class="span-or">Or, Create an account with your email</span>
 								</div>
 								<!-- Social Login -->
 								<div class="social-login">
@@ -63,11 +69,10 @@
 									<a href="#" class="d-flex align-items-center justify-content-center input-block btn google-login w-100"><span><img src="assets/img/icons/facebook.svg" class="img-fluid" alt="Facebook"></span>Log in with Facebook</a>
 								</div>
 								<!-- /Social Login -->
-								<div class="text-center dont-have">Don't have an account yet? <a href="register.php">Register</a></div>
+								<div class="text-center dont-have">Already have an Account? <a href="login.php">Sign In</a></div>
 							</form>							
 						</div>
 					</div>
 				</div>
 			</div>
-			
-<?php include 'log-process-footer.php'; ?>
+			<?php include 'log-process-footer.php'; ?>
