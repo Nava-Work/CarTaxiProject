@@ -117,7 +117,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link header-reg" href="register.php"
+                <a class="nav-link header-reg" href="register-as.php"
                   ><span><i class="fa-solid fa-lock"></i></span>Sign Up</a
                 >
               </li>
