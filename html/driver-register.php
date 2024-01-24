@@ -2,12 +2,12 @@
 
     include "database-config.php";
     if(isset($_POST["sign_up_btn"])){
-        $did= $_POST["driver_id"];
-        $name = $_POST["name"];
-        $uname = $_POST["username"];
+        $did= $_POST["driverId"];
+        $name = $_POST["Name"];
+        $uname = $_POST["userName"];
         $password = $_POST["password"];
         $email = $_POST["email"];
-        $phonenum = $_POST["phone_number"];
+        $phonenum = $_POST["phone_num"];
         $regtime = $_POST["regTime"];
 		$nic = $_POST["NIC"];
         
@@ -58,11 +58,11 @@
 							<form action="index.php">
               <div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="name">
+									<input type="text" class="form-control"  placeholder="" name="Name">
 								</div>
                 <div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
-									<input type="tel" class="form-control"  placeholder="" name="phone_number">
+									<input type="tel" class="form-control"  placeholder="" name="phone_num">
 								</div>
                 <div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
@@ -70,7 +70,7 @@
 								</div>
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="username">
+									<input type="text" class="form-control"  placeholder="" name="userName">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
