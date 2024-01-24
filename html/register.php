@@ -35,13 +35,13 @@ else {
 	// 	}
 	if(isset($_POST["signup"]))
 	{
-	//$na = $_POST["name"];
+	$na = $_POST["name"];
     $una = $_POST["username"];
     $pass= $_POST["password"];
     $email = $_POST["email"];
-    //$phonenum = $_POST["phone_number"];
+    $phonenum = $_POST["phone_number"];
 
-	$sql = "insert into passenger (name, username, password, email, phone_number) values('fathimaSajaana','$una','$pass','$email','0928212121') ";
+	$sql = "insert into passenger (name, username, password, email, phone_number) values('$na','$una','$pass','$email','$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
 			echo "Data inserted";
@@ -90,6 +90,12 @@ else {
 							<h1>Sign Up</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
 							<form action="register.php" method="post">
+
+							<div class="input-block">
+									<label class="form-label">Name <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="" name="name">
+								</div>
+
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
 									<input type="text" class="form-control"  placeholder="" name="username">
@@ -107,6 +113,11 @@ else {
 									<label class="form-label">Email <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="" name="email">
 								</div>	
+
+								<div class="input-block">
+									<label class="form-label">Phone No <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="" name="phone_number">
+								</div>
 
 								<input class="btn btn-outline-light w-100 btn-size mt-1" type="submit" value="Sign Up" name="signup">
 								<!-- <a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign Up</a> -->
