@@ -1,3 +1,27 @@
+<?php
+
+    include "database-config.php";
+
+    if(isset($_POST["login"])){
+        $un = $_POST["username"];
+        $pw = $_POST["password"];
+
+        if(empty($un)||empty($pw)){
+            echo "Username or Password Empty";
+        }else{
+            $qry = "SELECT * FROM driver WHERE Username = '$un' AND Password = '$pw'";
+
+            if($res->fetch_assoc()){
+                header("Location:index.php");
+            }else{
+                echo "Username or Password Incorrect";
+            }
+        }
+        
+    }
+    
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 	

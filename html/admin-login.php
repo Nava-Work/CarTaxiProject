@@ -8,6 +8,7 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<?php include 'css.php'; ?>
+		<?php include 'database-config.php'?>
 	</head>
 	</head>
 	<body>

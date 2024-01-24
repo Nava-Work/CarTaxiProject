@@ -16,6 +16,7 @@
 		<div class="main-wrapper login-body">
 			<!-- Header -->
 			<header class="log-header">
+				<?php include 'database-config.php'?>
 				<a href="index.php"><img class="img-fluid logo-dark" src="assets/img/logo.png" alt="Logo"></a>
 			</header>
 			<!-- /Header -->
