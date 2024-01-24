@@ -16,7 +16,7 @@
                
         }else{
 
-            $qry = "INSERT INTO driver (driver_id,name,username,password,email,phone_number,regtime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
+            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regtime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
 
             $res = $connect->query($qry);
  
