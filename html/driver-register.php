@@ -1,29 +1,37 @@
 <?php
+session_start(); // Start the session
+require 'database-config.php';
 
-    include "database-config.php";
-    if(isset($_POST["sign_up_btn"])){
-        $did= $_POST["driverId"];
-        $name = $_POST["Name"];
-        $uname = $_POST["userName"];
-        $password = $_POST["password"];
-        $email = $_POST["email"];
-        $phonenum = $_POST["phone_num"];
-        $regtime = $_POST["regTime"];
-		$nic = $_POST["NIC"];
-        
+	if(isset($_POST["signup"]))
+	{
+	$na = $_POST["name"];
+    $una = $_POST["username"];
+    $pass= $_POST["password"];
+    $email = $_POST["email"];
+    $phonenum = $_POST["phone_number"];
+//	$nic = $_POST["NIC"];
 
-            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,NIC,phone_number,regTime) VALUES ('{$did}',{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}'{$regtime}')";
+	$sql = "insert into drivers (name, username, password, email, phone_number) values('$na','$una','$pass','$email','$phonenum') ";
+		if(mysqli_query($conn, $sql))
+		{
+			echo 
+			"
+			<script>
+			alert('Driver Registration successful');
+			document.location.href = 'driver-login.php';
+			</script>
+			"
+			;
+			// $_SESSION['registration_success'] = "Registration successful.";
+			// header("Location: login.php");
+        	// exit();
+		}
+		else {
+			echo "Unable to insert data: " . mysqli_error($conn);
+		}
+	}
+?>
 
-            $res = $connect->query($qry);
- 
-            if($res){
-             echo "Data Inserted Successfully";
-            }else{
-             echo "Something wrong in your code";
-            }
-
-    }
-   ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -55,22 +63,22 @@
 							</div>
 							<h1>Sign Up</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
-							<form action="driver-registration.php">
+							<form action="driver-register.php" method="post">
               					
 								<div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="Name">
+									<input type="text" class="form-control"  placeholder="" name="name">
 								</div>
                 				
 								<div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
-									<input type="tel" class="form-control"  placeholder="" name="phone_num">
+									<input type="tel" class="form-control"  placeholder="" name="phone_number">
 								</div>
                 				
-								<div class="input-block">
+								<!-- <div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
 									<input type="number" class="form-control"  placeholder="" name="NIC">
-								</div>
+								</div> -->
 
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
@@ -79,7 +87,7 @@
 								
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="userName">
+									<input type="text" class="form-control"  placeholder="" name="username">
 								</div>
 								
 								<div class="input-block">
@@ -89,7 +97,11 @@
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>	
-								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1" name="sign_up_btn">Sign Up</a>
+
+								<input class="btn btn-outline-light w-100 btn-size mt-1" type="submit" value="Sign Up" name="signup">
+
+								<!-- <a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1" name="sign_up_btn">Sign Up</a> -->
+
 								<div class="login-or">
 									<span class="or-line"></span>
 									<span class="span-or">Or, Create an account with your email</span>
