@@ -1,3 +1,35 @@
+<?php
+
+    include "database-config.php";
+    if(isset($_POST["sign_up_btn"])){
+        $did= $_POST["driver_id"];
+        $name = $_POST["name"];
+        $uname = $_POST["username"];
+        $password = $_POST["password"];
+        $email = $_POST["email"];
+        $phonenum = $_POST["phone_number"];
+        $regtime = $_POST["regtime"];
+        
+        if(empty($did) && empty($name) && empty($uname) && empty($password) && empty($email) && empty($phonenum) && empty($regtime) && empty($address)){
+
+            echo "Check the data entered valid or not";
+               
+        }else{
+
+            $qry = "INSERT INTO driver (driver_id,name,username,password,email,phone_number,regtime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
+
+            $res = $connect->query($qry);
+ 
+            if($res){
+             echo "Data Inserted Successfully";
+            }else{
+             echo "Something wrong in your code";
+            }
+
+        }
+    }
+   ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +88,7 @@
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>	
-								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign Up</a>
+								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1" name="sign_up_btn">Sign Up</a>
 								<div class="login-or">
 									<span class="or-line"></span>
 									<span class="span-or">Or, Create an account with your email</span>
