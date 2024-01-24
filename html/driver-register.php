@@ -63,11 +63,11 @@
 							<form action="index.php">
               <div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="">
+									<input type="text" class="form-control"  placeholder="" name="name">
 								</div>
                 <div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
-									<input type="tel" class="form-control"  placeholder="">
+									<input type="tel" class="form-control"  placeholder="" name="phone_number">
 								</div>
                 <div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
@@ -75,16 +75,16 @@
 								</div>
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="">
+									<input type="text" class="form-control"  placeholder="" name="username">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
-									<input type="email" class="form-control"  placeholder="">
+									<input type="email" class="form-control"  placeholder="" name="email">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="">
+										<input type="password" class="form-control pass-input" placeholder="" name="password">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>	
