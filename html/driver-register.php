@@ -10,11 +10,6 @@
         $phonenum = $_POST["phone_number"];
         $regtime = $_POST["regTime"];
         
-        // if(empty($did) && empty($name) && empty($uname) && empty($password) && empty($email) && empty($phonenum) && empty($regtime) && empty($address)){
-
-        //     echo "Check the data entered valid or not";
-               
-        // }else{
 
             $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regTime) VALUES ('{$did}','{name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
 
@@ -26,7 +21,6 @@
              echo "Something wrong in your code";
             }
 
-        //}
     }
    ?>
 
