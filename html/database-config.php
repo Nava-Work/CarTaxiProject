@@ -3,7 +3,7 @@
 
 <?php
 
-$connect = new mysqli("localhost","root","","citytaxi");
+$connect = new mysqli("localhost","root","","14_cartaxi");
 
 if($connect){
     echo "db connected";
