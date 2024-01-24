@@ -55,27 +55,33 @@
 							</div>
 							<h1>Sign Up</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
-							<form action="index.php">
-              <div class="input-block">
+							<form action="driver-registration.php">
+              					
+								<div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
 									<input type="text" class="form-control"  placeholder="" name="Name">
 								</div>
-                <div class="input-block">
+                				
+								<div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
 									<input type="tel" class="form-control"  placeholder="" name="phone_num">
 								</div>
-                <div class="input-block">
+                				
+								<div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
 									<input type="number" class="form-control"  placeholder="" name="NIC">
 								</div>
-								<div class="input-block">
-									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="userName">
-								</div>
+
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="" name="email">
 								</div>
+								
+								<div class="input-block">
+									<label class="form-label">Username <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="" name="userName">
+								</div>
+								
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
