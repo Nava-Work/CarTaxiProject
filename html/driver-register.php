@@ -1,3 +1,29 @@
+<?php
+
+    include "database-config.php";
+    if(isset($_POST["sign_up_btn"])){
+        $did= $_POST["driver_id"];
+        $name = $_POST["name"];
+        $uname = $_POST["username"];
+        $password = $_POST["password"];
+        $email = $_POST["email"];
+        $phonenum = $_POST["phone_number"];
+        $regtime = $_POST["regTime"];
+        
+
+            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,phone_number,regTime) VALUES ('{$did}','{$name}','{$uname}','{$password}','{$email}','{$phonenum}','{$regtime}')";
+
+            $res = $connect->query($qry);
+ 
+            if($res){
+             echo "Data Inserted Successfully";
+            }else{
+             echo "Something wrong in your code";
+            }
+
+    }
+   ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,11 +57,11 @@
 							<form action="index.php">
               <div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="">
+									<input type="text" class="form-control"  placeholder="" name="name">
 								</div>
                 <div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
-									<input type="tel" class="form-control"  placeholder="">
+									<input type="tel" class="form-control"  placeholder="" name="phone_number">
 								</div>
                 <div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
@@ -43,20 +69,20 @@
 								</div>
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="">
+									<input type="text" class="form-control"  placeholder="" name="username">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
-									<input type="email" class="form-control"  placeholder="">
+									<input type="email" class="form-control"  placeholder="" name="email">
 								</div>
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="">
+										<input type="password" class="form-control pass-input" placeholder="" name="password">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>	
-								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign Up</a>
+								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1" name="sign_up_btn">Sign Up</a>
 								<div class="login-or">
 									<span class="or-line"></span>
 									<span class="span-or">Or, Create an account with your email</span>
