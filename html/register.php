@@ -4,7 +4,8 @@ $conn = mysqli_connect("localhost", "root", "");
 
 if (!$conn) {
     die("Connection Error: " . mysqli_connect_error());
-} else {
+} 
+else {
     //echo "Connection object is created"; // here check if the connection is ok
 
 	//after connection ok create database based on giving query
@@ -39,15 +40,16 @@ if (!$conn) {
     $pass= $_POST["password"];
     $email = $_POST["email"];
     //$phonenum = $_POST["phone_number"];
+
 	$sql = "insert into passenger (name, username, password, email, phone_number) values('fathimaSajaana','$una','$pass','$email','0928212121') ";
 		if(mysqli_query($conn, $sql))
 		{
 			echo "Data inserted";
+			header("Location: login.php");
+        	exit();
 		}
-		else 
-		{
-			echo "Unable to insert data";
-
+		else {
+			echo "Unable to insert data: " . mysqli_error($conn);
 		}
 	}
 }
@@ -105,8 +107,8 @@ if (!$conn) {
 									<label class="form-label">Email <span class="text-danger">*</span></label>
 									<input type="email" class="form-control"  placeholder="" name="email">
 								</div>	
-								
-								<input type="submit" value="Sign Up" name="signup">
+
+								<input class="btn btn-outline-light w-100 btn-size mt-1" type="submit" value="Sign Up" name="signup">
 								<!-- <a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign Up</a> -->
 								<div class="login-or">
 									<span class="or-line"></span>
