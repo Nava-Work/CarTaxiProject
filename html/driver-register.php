@@ -12,7 +12,7 @@
 		$nic = $_POST["NIC"];
         
 
-            $qry = "INSERT INTO drivers (name,username,password,email,NIC,phone_number) VALUES ('{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}')";
+            $qry = "INSERT INTO drivers (driver_id,name,username,password,email,NIC,phone_number,regTime) VALUES ('{$did}',{$name}','{$uname}','{$password}','{$email}','{$nic}','{$phonenum}'{$regtime}')";
 
             $res = $connect->query($qry);
  
@@ -102,4 +102,4 @@
 					</div>
 				</div>
 			</div>
-			<?php include 'log-process-footer.php'; ?>
+			<?php include 'log-process-footer.php';?>
