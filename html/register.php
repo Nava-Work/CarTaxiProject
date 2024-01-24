@@ -1,38 +1,7 @@
 <?php
 session_start(); // Start the session
-$conn = mysqli_connect("localhost", "root", "");
+require 'database-config.php';
 
-if (!$conn) {
-    die("Connection Error: " . mysqli_connect_error());
-} 
-else {
-    //echo "Connection object is created"; // here check if the connection is ok
-
-	//after connection ok create database based on giving query
-	// $sqlDatabase = "create databse 14_cartaxi";
-	// if(mysqli_query($conn, $sqlDatabase))
-	// {
-	// 	echo "Database created";
-	// }
-	// else 
-	// {
-	// 	echo "Unable to create Database";
-
-	// }
-
-	//creating table
-	mysqli_select_db($conn, "14_cartaxi"); //select databse name
-	
-	// $sqlTable= "create table passenger(id, primary key(id), name varchar(191), username varchar(191), password varchar(50))";
-	// if(mysqli_query($conn, $sqlTable))
-	// 	{
-	// 		echo "Table created";
-	// 	}
-	// 	else 
-	// 	{
-	// 		echo "Unable to create Table";
-
-	// 	}
 	if(isset($_POST["signup"]))
 	{
 	$na = $_POST["name"];
@@ -60,7 +29,7 @@ else {
 			echo "Unable to insert data: " . mysqli_error($conn);
 		}
 	}
-}
+
 
 
 
