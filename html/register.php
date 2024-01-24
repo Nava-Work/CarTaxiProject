@@ -1,5 +1,5 @@
 <?php
-
+session_start(); // Start the session
 $conn = mysqli_connect("localhost", "root", "");
 
 if (!$conn) {
@@ -44,7 +44,7 @@ else {
 	$sql = "insert into passenger (name, username, password, email, phone_number) values('$na','$una','$pass','$email','$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
-			echo "Data inserted";
+			$_SESSION['registration_success'] = "Registration successful.";
 			header("Location: login.php");
         	exit();
 		}
@@ -69,6 +69,17 @@ else {
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/img/favicon.ico">
 		<?php include 'css.php'; ?>
+
+		<script>
+        // JavaScript to display alert
+        <?php
+        // Check if a success message is set in the session
+        if (isset($_SESSION['registration_success'])) {
+            echo "alert('" . $_SESSION['registration_success'] . "');";
+            unset($_SESSION['registration_success']); // Clear the session variable
+        }
+        ?>
+    </script>
 	</head>
 	<body>
 	
