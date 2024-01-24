@@ -44,9 +44,17 @@ else {
 	$sql = "insert into passenger (name, username, password, email, phone_number) values('$na','$una','$pass','$email','$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
-			$_SESSION['registration_success'] = "Registration successful.";
-			header("Location: login.php");
-        	exit();
+			echo 
+			"
+			<script>
+			alert('Registration successful');
+			document.location.href = 'login.php';
+			</script>
+			"
+			;
+			// $_SESSION['registration_success'] = "Registration successful.";
+			// header("Location: login.php");
+        	// exit();
 		}
 		else {
 			echo "Unable to insert data: " . mysqli_error($conn);
@@ -80,6 +88,35 @@ else {
         }
         ?>
     </script>
+
+<!-- <script type="text/javascript">
+
+function getLocation() {
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(showPosition, showError);
+	}
+	//  else {
+	// 	alert("Geolocation is not supported by this browser.");
+	// }
+}
+
+function showPosition(position) {
+	document.querySelector('.myform input[name = "latitude"]').value = position.coords.latitude;
+	document.querySelector('.myform input[name = "longitude"]').value = position.coords.longitude;
+}
+
+function showError(error) {
+	switch(error.code)
+	{
+	case error.PERMISSION_DENIED:
+		alert("You must allow the request for geolocation");
+		location.reload();
+		break;
+	}
+	// body...
+}
+
+</script>  -->
 	</head>
 	<body>
 	
