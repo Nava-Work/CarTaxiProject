@@ -25,8 +25,8 @@ require 'database-config.php';
 			echo 
 			"
 			<script>
-			alert('Login successful');
-			document.location.href = 'index.php'; 
+			alert('Login Successful');
+			document.location.href = 'driver-dashboard.php'; 
 			</script>
 			"
 			;
