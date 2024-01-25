@@ -63,7 +63,7 @@ if(isset($_POST["signup"]))
 
     $mail->isHTML(true);
     $mail->Subject = "Confirmation Email";
-    $mail->Body = "Username: " . $_POST["username"] . "<br>Password: " . $_POST["password"];
+    $mail->Body = "<B>Hi ".$_POST["name"] .",</B>". "<br>You are successfully registered as a passenger in CITY TAXI. " ."<br>Below Your username and password availabe don't share it to anyone.". "<br><br>Username: " . $_POST["username"] . "<br>Password: " . $_POST["password"];
 
     $mail->send();
 
