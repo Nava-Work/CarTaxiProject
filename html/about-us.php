@@ -184,8 +184,6 @@
 							<h2>Committed to Excellence in Taxi Services</h2>
 							<p>
 									City Taxi stands as a trailblazer in the transportation sector, boasting over a decade of unparalleled service. Our unwavering dedication to excellence is evident in the delivery of efficient and dependable taxi services. Rooted in a commitment to quality, we prioritize passenger satisfaction by providing a seamless and comfortable experience.</p>
-							<h2>Best Solution For Cleaning Services</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							<div class="row">
 								<div class="col-md-6">
