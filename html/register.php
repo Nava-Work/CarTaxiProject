@@ -6,17 +6,20 @@ require 'database-config.php';
 	{
 	$na = $_POST["name"];
     $una = $_POST["username"];
-    $pass= $_POST["password"];
+    $pass= $_POST["password"];   // Plain text password
     $email = $_POST["email"];
     $phonenum = $_POST["phone_number"];
 
-	$sql = "insert into passenger (name, username, password, email, phone_number) values('$na','$una','$pass','$email','$phonenum') ";
+	 // Hash the password before storing it
+	 $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
+
+	$sql = "insert into passenger (name, username, password, email, phone_number) values('$na','$una','$hashed_password','$email','$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
 			echo 
 			"
 			<script>
-			alert('Registration successful');
+			alert('Registration Successful');
 			document.location.href = 'login.php';
 			</script>
 			"
