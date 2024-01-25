@@ -97,13 +97,13 @@ require 'database-config.php';
 								
 							<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="username">
+									<input type="text" class="form-control"  placeholder="" name="username" required value="">
 								</div>
 								
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="" name="password">
+										<input type="password" class="form-control pass-input" placeholder="" name="password" required value="">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>								

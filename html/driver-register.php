@@ -9,14 +9,14 @@ require 'database-config.php';
     $pass= $_POST["password"];
     $email = $_POST["email"];
     $phonenum = $_POST["phone_number"];
-	//	$nic = $_POST["NIC"];
+	$nic = $_POST["NIC"];
 
 
 	 // Hash the password before storing it
 	 $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
 
 
-	$sql = "insert into drivers (name, username, password, email, phone_number) values('$na','$una','$hashed_password','$email','$phonenum') ";
+	$sql = "insert into drivers (name, username, password, email, NIC, phone_number) values('$na','$una','$hashed_password','$email',$nic,'$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
 			echo 
@@ -111,33 +111,33 @@ if(isset($_POST["signup"]))
               					
 								<div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="name">
+									<input type="text" class="form-control"  placeholder="" name="name" required value="">
 								</div>
                 				
 								<div class="input-block">
 									<label class="form-label">Contact No <span class="text-danger">*</span></label>
-									<input type="tel" class="form-control"  placeholder="" name="phone_number">
+									<input type="tel" class="form-control"  placeholder="" name="phone_number" required value="">
 								</div>
                 				
-								<!-- <div class="input-block">
+								<div class="input-block">
 									<label class="form-label">NIC <span class="text-danger">*</span></label>
-									<input type="number" class="form-control"  placeholder="" name="NIC">
-								</div> -->
+									<input type="number" class="form-control"  placeholder="" name="NIC" required value="">
+								</div>
 
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
-									<input type="email" class="form-control"  placeholder="" name="email">
+									<input type="email" class="form-control"  placeholder="" name="email" required value="">
 								</div>
 								
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="username">
+									<input type="text" class="form-control"  placeholder="" name="username" required value="">
 								</div>
 								
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="" name="password">
+										<input type="password" class="form-control pass-input" placeholder="" name="password" required value="">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>	
