@@ -1,3 +1,67 @@
+<?php
+session_start(); // Start the session
+require 'database-config.php';
+
+	if(isset($_POST["signin"]))
+	{
+    $una = $_POST["username"] ;     //admin
+    $pass= $_POST["password"] ;     //password
+
+	$sql = "select * from user WHERE username = '$una'";
+	$query = mysqli_query($conn, $sql);
+
+	$row = mysqli_fetch_assoc($query);         //fetching the row
+	$stored_hashed_password = $row["password"];        
+ 
+	$known_hash = $stored_hashed_password;     //stored password
+	$plaintext_password = $pass;   //plain text password
+
+	if(mysqli_num_rows($query)>0)
+    {
+        $row = mysqli_fetch_assoc($query);
+
+		if (password_verify($plaintext_password, $known_hash)) {
+
+
+			echo 
+			"
+			<script>
+			alert('Login successful');
+			document.location.href = 'admin-dashboard.php'; 
+			</script>
+			"
+			;
+        }
+        else
+        {
+			echo 
+			"
+			<script>
+			alert('Wrong Password');
+			document.location.href = 'admin-login.php';
+			</script>
+			"
+			;
+            exit;
+        }
+    }
+//if the username is not there
+    else
+    {
+        echo 
+			"
+			<script>
+			alert('Need to register for new Admin');      
+			document.location.href = 'admin-login.php';
+			</script>
+			"
+			;
+        exit;
+    }
+	}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 	
@@ -30,28 +94,35 @@
 							</div>
 							<h1>Sign In</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
-							<form action="index.php">
+							<form action="admin-login.php" method="post">
+								
 								<div class="input-block">
-									<label class="form-label">Username or Email <span class="text-danger">*</span></label>
-									<input type="email" class="form-control"  placeholder="">
+									<label class="form-label">Username <span class="text-danger">*</span></label>
+									<input type="text" class="form-control"  placeholder="" name="username">
 								</div>
+								
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="">
+										<input type="password" class="form-control pass-input" placeholder="" name="password">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>								
+								
 								<div class="input-block">
 									<a class="forgot-link" href="forgot-password.php">Forgot Password ?</a>
 								</div>
+								
 								<div class="input-block m-0">
 									<label class="custom_check d-inline-flex"><span>Remember me</span>
 										<input type="checkbox" name="remeber">
 										<span class="checkmark"></span>
 									</label>
 								</div>
-								<a href="index.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign In</a>
+
+								<input class="btn btn-outline-light w-100 btn-size mt-1" type="submit" value="Sign In" name="signin">
+
+								<!-- <a href="index.php" class="btn btn-outline-light w-100 btn-size mt-1">Sign In</a> -->
 								<div class="login-or">
 									<span class="or-line"></span>
 									<span class="span-or-log">Or, log in with your email</span>
