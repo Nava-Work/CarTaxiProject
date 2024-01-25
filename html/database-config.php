@@ -5,8 +5,8 @@
 
 $connect = new mysqli("localhost","root","","citytaxi");
 
-if($connect){
-    echo "db connected";
-}
+// if($connect){
+//     //echo "db connected";
+// }
 
 ?>
