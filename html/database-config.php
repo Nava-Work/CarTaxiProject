@@ -7,5 +7,4 @@ $conn = mysqli_connect("localhost",  "root",  "",  "14_cartaxi");  //"14_cartaxi
 if (!$conn) {
     die("Connection Error: " . mysqli_connect_error());
 } 
-
 ?>

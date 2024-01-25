@@ -58,5 +58,11 @@
 		<!-- JS -->
 		<?php include 'script.php'; ?>
    
+    <script>
+    function redirectToSignup() {
+        // Redirect to the signup page
+        window.location.href = "register-as.php";
+    }
+    </script>
   </body>
 </html>

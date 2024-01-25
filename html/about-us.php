@@ -47,7 +47,7 @@
 							<h6>ABOUT OUR COMPANY</h6>
 							<h2>Committed to Excellence in Taxi Services</h2>
 							<p>
-City Taxi stands as a trailblazer in the transportation sector, boasting over a decade of unparalleled service. Our unwavering dedication to excellence is evident in the delivery of efficient and dependable taxi services. Rooted in a commitment to quality, we prioritize passenger satisfaction by providing a seamless and comfortable experience.</p>
+									City Taxi stands as a trailblazer in the transportation sector, boasting over a decade of unparalleled service. Our unwavering dedication to excellence is evident in the delivery of efficient and dependable taxi services. Rooted in a commitment to quality, we prioritize passenger satisfaction by providing a seamless and comfortable experience.</p>
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							<div class="row">
 								<div class="col-md-6">

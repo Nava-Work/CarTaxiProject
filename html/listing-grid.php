@@ -1,164 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/listing-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:22 GMT -->
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<title>Dreams Rent | Template</title>
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/img/favicon.png">
-	
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-	<!-- Fontawesome CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">	
-	
-	<!-- Aos CSS -->
-	<link rel="stylesheet" href="assets/plugins/aos/aos.css">
-
-    <!-- Datepicker CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-
-	<!-- Rangeslider CSS -->
-	<link rel="stylesheet" href="assets/plugins/ion-rangeslider/css/ion.rangeSlider.min.css">
-
-	<!-- Select2 CSS -->
-	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+  <head>
+  <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<title>City Taxi - Cab Service</title>
 		
-  <!-- Fearther CSS -->
-	<link rel="stylesheet" href="assets/css/feather.css">
-		
-	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	
-</head>
-
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+  <?php include 'css.php'; ?>
 <body>
 	
 	<div class="main-wrapper">
-	
-		<!-- Header -->
-		<header class="header">
-			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg header-nav">
-					<div class="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
-							<span class="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-							</span>
-						</a>
-						<a href="index.html" class="navbar-brand logo">
-							<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-						</a>	
-						<a href="index.html" class="navbar-brand logo-small">
-							<img src="assets/img/logo-small.png" class="img-fluid" alt="Logo">
-						</a>						
-					</div>
-					<div class="main-menu-wrapper">
-						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
-								<img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
-							</a>
-							<a id="menu_close" class="menu-close" href="javascript:void(0);"> <i class="fas fa-times"></i></a>
-						</div>
-						<ul class="main-nav">
-							<li><a href="index.html">Home</a></li>
-							<li class="has-submenu active">
-								<a href="#">Listings <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-								    <li class="active"><a href="listing-grid.html">Listing Grid</a></li>
-								    <li><a href="listing-list.html">Listing List</a></li>					
-								    <li><a href="listing-details.html">Listing Details</a></li>								
-								</ul>
-							</li>
-							<li class="has-submenu">
-								<a href="#">Pages <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-								    <li><a href="about-us.html">About Us</a></li>
-									<li class="has-submenu">
-										<a href="javascript:void(0);">Authentication</a>
-										<ul class="submenu">
-											<li><a href="register.html">Signup</a></li>
-											<li><a href="login.html">Signin</a></li>
-											<li><a href="forgot-password.html">Forgot Password</a></li>
-											<li><a href="reset-password.html">Reset Password</a></li>
-										</ul>
-									</li>
-									<li class="has-submenu">
-										<a href="javascript:void(0);">Booking</a>
-										<ul class="submenu">
-											<li><a href="booking-payment.html">Booking Checkout</a></li>
-											<li><a href="booking.html">Booking</a></li>
-											<li><a href="invoice-details.html">Invoice Details</a></li>
-										</ul>
-									</li>
-									<li class="has-submenu">
-										<a href="javascript:void(0);">Error Page</a>
-										<ul class="submenu">
-											<li><a href="error-404.html">404 Error</a></li>
-											<li><a href="error-500.html">500 Error</a></li>
-										</ul>
-									</li>
-									<li><a href="pricing.html">Pricing</a></li>
-									<li><a href="faq.html">FAQ</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									<li><a href="our-team.html">Our Team</a></li>
-									<li><a href="testimonial.html">Testimonials</a></li>
-									<li><a href="terms-condition.html">Terms & Conditions</a></li>
-									<li><a href="privacy-policy.html">Privacy Policy</a></li>									
-									<li><a href="maintenance.html">Maintenance</a></li>
-									<li><a href="coming-soon.html">Coming Soon</a></li>
-								</ul>
-							</li>
-							<li class="has-submenu">
-								<a href="#">Blog <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-								    <li><a href="blog-list.html">Blog List</a></li>
-									<li><a href="blog-grid.html">Blog Grid</a></li>
-									<li><a href="blog-details.html">Blog Details</a></li>																		
-								</ul>
-							</li>
-							<li><a href="contact-us.html">Contact</a></li>
-							<li class="login-link">
-								<a href="register.html">Sign Up</a>
-							</li>
-							<li class="login-link">
-								<a href="login.html">Sign In</a>
-							</li>
-						</ul>
-					</div>
-					<ul class="nav header-navbar-rht">
-						<li class="nav-item">
-							<a class="nav-link header-login" href="login.html"><span><i class="fa-regular fa-user"></i></span>Sign In</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link header-reg" href="register.html"><span><i class="fa-solid fa-lock"></i></span>Sign Up</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<!-- /Header -->
+	<?php include 'header.php';?>
 		
 		<!-- Breadscrumb Section -->
 		<div class="breadcrumb-bar">
 			<div class="container">
 				<div class="row align-items-center text-center">
 		    		<div class="col-md-12 col-12">
-			    	    <h2 class="breadcrumb-title">Car Listings</h2>
-				    	<nav aria-label="breadcrumb" class="page-breadcrumb">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-								<li class="breadcrumb-item"><a href="javascript:void(0);">Listings</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Car Listings</li>
-							</ol>
-						</nav>							
+			    	    <h2 class="breadcrumb-title">Vehicles List</h2>				
 					</div>
 				</div>
 			</div>
@@ -206,12 +66,12 @@
 								<div class="grid-listview">
 									<ul>
 										<li>
-											<a href="listing-grid.html" class="active">
+											<a href="listing-grid.php" class="active">
 												<i class="feather-grid"></i>
 											</a>
 										</li>
 										<li>
-											<a href="listing-list.html">
+											<a href="listing-list.php">
 												<i class="feather-list"></i>
 											</a>
 										</li>
@@ -528,7 +388,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">										
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-01.jpg" class="img-fluid" alt="Toyota">
 										</a>
 										<div class="fav-item">
@@ -544,7 +404,7 @@
 												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Toyota Camry SE 350</a>
+												<a href="listing-details.php">Toyota Camry SE 350</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -594,7 +454,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>		 
@@ -605,7 +465,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-02.jpg" class="img-fluid" alt="KIA">
 										</a>
 										<div class="fav-item">
@@ -621,7 +481,7 @@
 												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Kia Soul 2016</a>
+												<a href="listing-details.php">Kia Soul 2016</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -671,7 +531,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -682,7 +542,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-03.jpg" class="img-fluid" alt="Audi">
 										</a>
 										<div class="fav-item">
@@ -698,7 +558,7 @@
 												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Audi A3 2019 new</a>
+												<a href="listing-details.php">Audi A3 2019 new</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -748,7 +608,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -759,7 +619,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-04.jpg" class="img-fluid" alt="Audi">
 										</a>
 										<div class="fav-item">
@@ -775,7 +635,7 @@
 												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
+												<a href="listing-details.php">Ferrari 458 MM Speciale</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -825,7 +685,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -836,7 +696,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-05.jpg" class="img-fluid" alt="Audi">
 										</a>
 										<div class="fav-item">
@@ -852,7 +712,7 @@
 												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">2018 Chevrolet Camaro</a>
+												<a href="listing-details.php">2018 Chevrolet Camaro</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -902,7 +762,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -913,7 +773,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-06.jpg" class="img-fluid" alt="Audi">
 										</a>
 										<div class="fav-item">
@@ -929,7 +789,7 @@
 												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Acura Sport Version</a>
+												<a href="listing-details.php">Acura Sport Version</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -979,7 +839,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -990,7 +850,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-07.jpg" class="img-fluid" alt="Audi">
 										</a>
 										<div class="fav-item">
@@ -1006,7 +866,7 @@
 												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
+												<a href="listing-details.php">Chevrolet Pick Truck 3.5L</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -1056,7 +916,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -1067,7 +927,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-08.jpg" class="img-fluid" alt="Toyota">
 										</a>
 										<div class="fav-item">
@@ -1083,7 +943,7 @@
 												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Toyota Tacoma 4WD</a>
+												<a href="listing-details.php">Toyota Tacoma 4WD</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -1133,7 +993,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -1144,7 +1004,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-09.jpg" class="img-fluid" alt="Toyota">
 										</a>
 										<div class="fav-item">
@@ -1160,7 +1020,7 @@
 												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Acura RDX FWD</a>
+												<a href="listing-details.php">Acura RDX FWD</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -1210,7 +1070,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -1221,7 +1081,7 @@
 							<div class="col-xl-6 col-lg-6 col-md-6 col-12">
 								<div class="listing-item">											
 									<div class="listing-img">
-										<a href="listing-details.html">
+										<a href="listing-details.php">
 											<img src="assets/img/cars/car-02.jpg" class="img-fluid" alt="Toyota">
 										</a>
 										<div class="fav-item">
@@ -1237,7 +1097,7 @@
 												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
 											</a>
 											<h3 class="listing-title">
-												<a href="listing-details.html">Kia Soul 2016</a>
+												<a href="listing-details.php">Kia Soul 2016</a>
 											</h3>																	  
 											<div class="list-rating">							
 												<i class="fas fa-star filled"></i>
@@ -1287,7 +1147,7 @@
 											</div>
 										</div>
 										<div class="listing-button">
-											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>
+											<a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
 										</div>	
 									</div>
 								</div>			 
@@ -1350,7 +1210,7 @@
 										<h5 class="footer-title">About Company</h5>
 										<ul>
 											<li>
-												<a href="about.html">Our Company</a>
+												<a href="about.php">Our Company</a>
 											</li>
 											<li>
 												<a href="javascript:void(0)">Shop Toyota</a>
@@ -1564,5 +1424,5 @@
 	
 </body>
 
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/listing-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:24 GMT -->
+<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/listing-grid.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:24 GMT -->
 </html>

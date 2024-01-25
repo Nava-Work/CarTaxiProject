@@ -1,3 +1,6 @@
+<?php
+    $currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <header class="header">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg header-nav">
@@ -35,80 +38,18 @@
                 ></a>
               </div>
               <ul class="main-nav">
-                <li class="active"><a href="index.php">Home</a></li>
-                <li class="has-submenu">
-                  <a href="#">Listings <i class="fas fa-chevron-down"></i></a>
-                  <ul class="submenu">
-                    <li><a href="listing-grid.php">Listing Grid</a></li>
-                    <li><a href="listing-list.php">Listing List</a></li>
-                    <li><a href="listing-details.php">Listing Details</a></li>
-                  </ul>
-                </li>
-                <li class="has-submenu">
-                  <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
-                  <ul class="submenu">
-                    <li><a href="about-us.php">About Us</a></li>
-                    <li class="has-submenu">
-                      <a href="javascript:void(0);">Authentication</a>
-                      <ul class="submenu">
-                        <li><a href="register-as.php">Signup</a></li>
-                        <li><a href="login-as.php">Signin</a></li>
-                        <li>
-                          <a href="forgot-password.php">Forgot Password</a>
-                        </li>
-                        <li>
-                          <a href="reset-password.php">Reset Password</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="has-submenu">
-                      <a href="javascript:void(0);">Booking</a>
-                      <ul class="submenu">
-                        <li>
-                          <a href="booking-payment.php">Booking Checkout</a>
-                        </li>
-                        <li><a href="booking.php">Booking</a></li>
-                        <li>
-                          <a href="invoice-details.php">Invoice Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="has-submenu">
-                      <a href="javascript:void(0);">Error Page</a>
-                      <ul class="submenu">
-                        <li><a href="error-404.php">404 Error</a></li>
-                        <li><a href="error-500.php">500 Error</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="pricing.php">Pricing</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="our-team.php">Our Team</a></li>
-                    <li><a href="testimonial.php">Testimonials</a></li>
-                    <li>
-                      <a href="terms-condition.php">Terms & Conditions</a>
-                    </li>
-                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                    <li><a href="maintenance.php">Maintenance</a></li>
-                    <li><a href="coming-soon.php">Coming Soon</a></li>
-                  </ul>
-                </li>
-                <li class="has-submenu">
-                  <a href="#">Blog <i class="fas fa-chevron-down"></i></a>
-                  <ul class="submenu">
-                    <li><a href="blog-list.php">Blog List</a></li>
-                    <li><a href="blog-grid.php">Blog Grid</a></li>
-                    <li><a href="blog-details.php">Blog Details</a></li>
-                  </ul>
-                </li>
-                <li><a href="contact-us.php">Contact</a></li>
+                <li <?php echo ($currentPage == 'index.php') ? 'class="active"' : ''; ?>><a href="index.php">Home</a></li>
+                <li <?php echo ($currentPage == 'listing-list.php') ? 'class="active"' : ''; ?>><a href="listing-list.php">Vehicles</a></li>
+                <li <?php echo ($currentPage == 'our-team.php') ? 'class="active"' : ''; ?>><a href="our-team.php">Our Team</a></li>
+                <li <?php echo ($currentPage == 'about-us.php') ? 'class="active"' : ''; ?>><a href="about-us.php">About Us</a></li>
+                <li <?php echo ($currentPage == 'contact-us.php') ? 'class="active"' : ''; ?>><a href="contact-us.php">Contact Us</a></li>
                 <li class="login-link">
-                  <a href="register-as.php">Sign Up</a>
+                    <a href="register-as.php" <?php echo ($currentPage == 'register-as.php') ? 'class="active"' : ''; ?>>Sign Up</a>
                 </li>
                 <li class="login-link">
-                  <a href="login-as.php">Sign In</a>
+                    <a href="login-as.php" <?php echo ($currentPage == 'login-as.php') ? 'class="active"' : ''; ?>>Sign In</a>
                 </li>
-              </ul>
+            </ul>
             </div>
             <ul class="nav header-navbar-rht">
               <li class="nav-item">

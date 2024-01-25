@@ -75,8 +75,8 @@
                 <li class="column-group-last">
                   <div class="input-block">
                     <div class="search-btn">
-                      <button class="btn search-button" type="submit">
-                        <i class="fa fa-search" aria-hidden="true"></i>Search
+                      <button class="btn search-button" type="button" onclick="redirectToSignup()">
+                          <i class="fa fa-search" aria-hidden="true"></i>Search
                       </button>
                     </div>
                   </div>
