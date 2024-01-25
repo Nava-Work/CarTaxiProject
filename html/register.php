@@ -60,7 +60,7 @@ if(isset($_POST["signup"]))
 
     $mail->isHTML(true);
     $mail->Subject = "Confirmation Email";
-    $mail->Body = "Username: " . $_POST["username"] . "<br>Password: " . $_POST["password"];
+    $mail->Body = "<B>Hi ".$_POST["name"] .",</B>". "<br>You are successfully registered as a passenger in CITY TAXI. " ."<br>Below Your username and password availabe don't share it to anyone.". "<br><br>Username: " . $_POST["username"] . "<br>Password: " . $_POST["password"];
 
     $mail->send();
 
@@ -149,30 +149,30 @@ function showError(error) {
 
 							<div class="input-block">
 									<label class="form-label">Name <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="name">
+									<input type="text" class="form-control"  placeholder="" name="name" required value="">
 								</div>
 
 								<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="username">
+									<input type="text" class="form-control"  placeholder="" name="username" required value="">
 								</div>
 								
 								<div class="input-block">
 									<label class="form-label">Password <span class="text-danger">*</span></label>
 									<div class="pass-group">
-										<input type="password" class="form-control pass-input" placeholder="" name="password">
+										<input type="password" class="form-control pass-input" placeholder="" name="password" required value="">
 										<span class="fas fa-eye-slash toggle-password"></span>
 									</div>
 								</div>
 
 								<div class="input-block">
 									<label class="form-label">Email <span class="text-danger">*</span></label>
-									<input type="email" class="form-control"  placeholder="" name="email">
+									<input type="email" class="form-control"  placeholder="" name="email" required value="">
 								</div>	
 
 								<div class="input-block">
 									<label class="form-label">Phone No <span class="text-danger">*</span></label>
-									<input type="text" class="form-control"  placeholder="" name="phone_number">
+									<input type="text" class="form-control"  placeholder="" name="phone_number" required value="">
 								</div>
 
 								<input class="btn btn-outline-light w-100 btn-size mt-1" type="submit" value="Sign Up" name="signup">
