@@ -1,7 +1,9 @@
 <?php
 require 'database-config.php';
 
-
+// Execute the database query to retrieve all passengers
+$sql = "SELECT * FROM passenger;";
+$output = mysqli_query($conn, $sql);
 ?>
 
 
@@ -31,9 +33,9 @@ require 'database-config.php';
             <div class="container mt-0">
                 <h2 class="mb-4">Passenger Management</h2>
                 <div class="table-responsive">
-                <form method="post" action="">
+                <!-- <form method="post" action="">
                     <button class="btn btn-warning btn-sm" value="Search All" name="searchAll">Search All</button>
-                </form>
+                </form> -->
 
                     <table id="passengerTable" class="table table-striped table-bordered table-hover">
                         <thead class="thead-dark">
@@ -49,8 +51,8 @@ require 'database-config.php';
                         </thead>
                         <tbody>
                             <?php
-                            if(isset($_POST["searchAll"]))
-                            {
+                            // if(isset($_POST["searchAll"]))
+                            // {
                                 $sql = "SELECT * FROM passenger;";
                                 $output = mysqli_query($conn, $sql);
                                 while($r = mysqli_fetch_array($output))
@@ -68,7 +70,7 @@ require 'database-config.php';
                                     echo "</td>";
                                     echo "</tr>";
                                 }
-                            }
+                            //}
                             ?>
                         </tbody>
 
