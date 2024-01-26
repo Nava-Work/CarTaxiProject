@@ -67,7 +67,7 @@ $output = mysqli_query($conn, $sql);
                                     echo "<td>" . $r['email'] . "</td>";
                                     echo "<td>" . $r['phone_number'] . "</td>";
                                     echo "<td>";
-                                    echo "<a href='edit_passenger.php?pass_id={$r['pass_id']}' class='btn btn-warning btn-sm'>Update</a>";
+                                    echo "<a href='edit-passenger.php?pass_id={$r['pass_id']}' class='btn btn-warning btn-sm'>Update</a>";
                                     //echo "<button class='btn btn-warning btn-sm'>Update</button>";
                                     echo "<form method='post' action='delete.php' style='display:inline;'>";
                                     echo "<input type='hidden'  name='pass_id' value='{$r['pass_id']}'>";

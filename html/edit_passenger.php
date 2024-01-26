@@ -80,11 +80,11 @@ if(isset($_POST['update'])) {
         </div>
         <div>
             <label>Email:</label>
-            <input type="email" name="email" value="<?php echo $email; ?>">
+            <input class="form-control" type="email" name="email" value="<?php echo $email; ?>">
         </div>
         <div>
             <label>Phone Number:</label>
-            <input type="text" name="phone_number" value="<?php echo $phone_number; ?>">
+            <input class="form-control" type="text" name="phone_number" value="<?php echo $phone_number; ?>">
         </div>
         <div>
             <input type="submit" name="update" value="Update">
