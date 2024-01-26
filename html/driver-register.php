@@ -8,15 +8,15 @@ require 'database-config.php';
     $una = $_POST["username"];
     $pass= $_POST["password"];
     $email = $_POST["email"];
-    $phonenum = $_POST["phone_number"];
 	$nic = $_POST["NIC"];
+    $phonenum = $_POST["phone_number"];
 
 
 	 // Hash the password before storing it
 	 $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
 
 
-	$sql = "insert into drivers (name, username, password, email, NIC, phone_number) values('$na','$una','$hashed_password','$email',$nic,'$phonenum') ";
+	$sql = "insert into drivers (name, username, password, email, NIC, phone_number) values('$na','$una','$hashed_password','$email','$nic','$phonenum') ";
 		if(mysqli_query($conn, $sql))
 		{
 			echo 
