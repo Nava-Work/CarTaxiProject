@@ -21,7 +21,7 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
-                        <h4 class="page-title">Edit Passenger</h4>
+                        <h4 class="page-title">Edit Driver</h4>
                     </div>
                 </div>
 
