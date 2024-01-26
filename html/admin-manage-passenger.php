@@ -1,3 +1,10 @@
+<?php
+require 'database-config.php';
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +31,10 @@
             <div class="container mt-0">
                 <h2 class="mb-4">Passenger Management</h2>
                 <div class="table-responsive">
+                <form method="post" action="">
+                    <button class="btn btn-warning btn-sm" value="Search All" name="searchAll">Search All</button>
+                </form>
+
                     <table id="passengerTable" class="table table-striped table-bordered table-hover">
                         <thead class="thead-dark">
                             <tr>
@@ -37,21 +48,30 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Sample Data (Replace this with data from your MySQL database) -->
-                            <tr>
-                                <td>1</td>
-                                <td>John Doe</td>
-                                <td>johndoe</td>
-                                <td>********</td>
-                                <td>johndoe@example.com</td>
-                                <td>123-456-7890</td>
-                                <td>
-                                    <button class="btn btn-warning btn-sm">Update</button>
-                                    <button class="btn btn-danger btn-sm">Delete</button>
-                                </td>
-                            </tr>
-                            <!-- Add more rows for additional passengers -->
+                            <?php
+                            if(isset($_POST["searchAll"]))
+                            {
+                                $sql = "SELECT * FROM passenger;";
+                                $output = mysqli_query($conn, $sql);
+                                while($r = mysqli_fetch_array($output))
+                                {
+                                    echo "<tr>";
+                                    echo "<td>" . $r['pass_id'] . "</td>";
+                                    echo "<td>" . $r['name'] . "</td>";
+                                    echo "<td>" . $r['username'] . "</td>";
+                                    echo "<td>" . $r['password'] . "</td>";
+                                    echo "<td>" . $r['email'] . "</td>";
+                                    echo "<td>" . $r['phone_number'] . "</td>";
+                                    echo "<td>";
+                                    echo "<button class='btn btn-warning btn-sm'>Update</button>";
+                                    echo "<button class='btn btn-danger btn-sm'>Delete</button>";
+                                    echo "</td>";
+                                    echo "</tr>";
+                                }
+                            }
+                            ?>
                         </tbody>
+
                     </table>
                 </div>
             </div>
