@@ -68,7 +68,7 @@ require 'database-config.php';
                                     echo "<td>" . $r['NIC'] . "</td>";
                                     echo "<td>" . $r['phone_number'] . "</td>";
                                     echo "<td>";
-                                    echo "<a href='edit_passenger.php?driver_id={$r['driver_id']}' class='btn btn-warning btn-sm'>Update</a>";
+                                    echo "<a href='edit-driver.php?driver_id={$r['driver_id']}' class='btn btn-warning btn-sm'>Update</a>";
                                     //echo "<button class='btn btn-warning btn-sm'>Update</button>";
                                     echo "<form method='post' action='delete.php' style='display:inline;'>";
                                     echo "<input type='hidden'  name='driver_id' value='{$r['driver_id']}'>";
