@@ -29,7 +29,7 @@ require 'database-config.php';
         <!-- Sidebar End -->
 
         <!-- Page Content Start -->
-        <form action = "delete.php" method="post">
+        <form action = "delete-driver.php" method="post">
         <div class="page-wrapper">
             <div class="container mt-0">
                 <h2 class="mb-4">Driver Management</h2>

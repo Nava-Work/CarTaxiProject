@@ -8,10 +8,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             <a href="admin-dashboard.php"><i class="fas fa-home"></i> Home</a>
         </li>
         <li <?php echo ($currentPage == 'admin-manage-passenger.php') ? 'class="active"' : ''; ?>>
-            <a href="admin-manage-passenger.php"><i class="fas fa-user"></i> Passengers</a>
+            <a href="admin-manage-passenger.php"><i class="fas fa-user"></i> Drivers</a>
         </li>
         <li <?php echo ($currentPage == 'admin-manage-driver.php') ? 'class="active"' : ''; ?>>
-            <a href="admin-manage-driver.php"><i class="fas fa-car"></i> Drivers</a>
+            <a href="admin-manage-driver.php"><i class="fas fa-car"></i> Vehicles</a>
         </li>
         <li <?php echo ($currentPage == 'admin-manage-reserve.php') ? 'class="active"' : ''; ?>>
             <a href="admin-manage-reserve.php"><i class="fas fa-calendar"></i> Reservations</a>
