@@ -17,21 +17,12 @@
       
       <!-- Banner -->
       <?php include 'banner.php'; ?>
-      
-     
 
       <!-- Search -->
-      <?php include 'search.php'; ?>
-      
-      
+      <?php include 'search.php'; ?>  
 
       <!-- services -->
       <?php include 'service.php'; ?>
-      
-      
-
-      <!-- Popular Services -->
-    
       
 
       <!-- Popular Cartypes -->
@@ -59,7 +50,7 @@
 		<?php include 'script.php'; ?>
    
     <script>
-    function redirectToSignup() {
+    function redirectPage() {
         // Redirect to the signup page
         window.location.href = "register-as.php";
     }

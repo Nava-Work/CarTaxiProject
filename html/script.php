@@ -39,3 +39,32 @@
         <!-- Bootstrap and Popper.js Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        	<!-- jQuery -->
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+
+<!-- Bootstrap Core JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>	
+
+<!-- Aos -->
+<script src="assets/plugins/aos/aos.js"></script>
+
+  <!-- Datepicker Core JS -->
+<script src="assets/plugins/moment/moment.min.js"></script>
+<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+  <!-- Slick JS -->
+  <script src="assets/plugins/slick/slick.js"></script>
+
+  <!-- Owl Carousel JS -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<!-- Top JS -->
+<script src="assets/js/backToTop.js"></script>
+
+<!-- Sticky Sidebar JS -->
+<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>	
+
+<!-- Custom JS -->
+<script src="assets/js/script.js"></script>

@@ -63,6 +63,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- Form Input Area -->
 				<div class="form-info-area" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="0.5">
 					<div class="row">
 						<div class="col-lg-6 d-flex">
@@ -102,7 +103,8 @@
 							</form>
 						</div>
 					</div>
-				</div>	
+				</div>
+				<!-- Form Input Area -->	
 		    </div>	
 		</section>	
 		<!-- /Contact us -->	

@@ -39,7 +39,7 @@
               </div>
               <ul class="main-nav">
               <li <?php echo ($currentPage == 'passenger-dashboard.php') ? 'class="active"' : ''; ?>><a href="passenger-dashboard.php">Home</a></li>
-                <li <?php echo ($currentPage == 'passenger-reserve-taxi.php') ? 'class="active"' : ''; ?>><a href="passenger-reserve-taxi.php">Reserve Taxi</a></li>
+                <li <?php echo ($currentPage == 'passenger-vehicle-list.php') ? 'class="active"' : ''; ?>><a href="passenger-vehicle-list.php">Reserve Taxi</a></li>
                 <li <?php echo ($currentPage == 'passenger-rate-driver.php') ? 'class="active"' : ''; ?>><a href="passenger-rate-driver.php">Rate Driver</a></li>
                 <li class="has-submenu <?php echo (in_array($currentPage, ['passenger-view-nearby.php', 'passenger-reserve-history.php'])) ? 'active' : ''; ?>">
                     <a href="javascript:void(0)">View <i class="fas fa-chevron-down"></i></a>

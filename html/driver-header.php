@@ -38,12 +38,12 @@
                 ></a>
               </div>
               <ul class="main-nav">
-              <li <?php echo ($currentPage == 'driver-dashboard.php') ? 'class="active"' : ''; ?>><a href="passenger-dashboard.php">Home</a></li>
+              <li <?php echo ($currentPage == 'driver-dashboard.php') ? 'class="active"' : ''; ?>><a href="driver-dashboard.php">Home</a></li>
                 <li <?php echo ($currentPage == 'driver-availability.php') ? 'class="active"' : ''; ?>><a href="driver-availability.php">Availability</a></li>
                 <li <?php echo ($currentPage == 'driver-view-rate.php') ? 'class="active"' : ''; ?>><a href="driver-view-rate.php">Ratings</a></li>
                 <li <?php echo ($currentPage == 'driver-view-reserve.php') ? 'class="active"' : ''; ?>><a href="driver-view-reserve.php">Reservations</a></li>
                 <li class="login-link">
-                    <a href="passenger-profile.php" <?php echo ($currentPage == 'passenger-profile.php') ? 'class="active"' : ''; ?>>Profile</a>
+                    <a href="driver-profile.php" <?php echo ($currentPage == 'passenger-profile.php') ? 'class="active"' : ''; ?>>Profile</a>
                 </li>
                 <li class="login-link">
                     <a href="login-as.php" <?php echo ($currentPage == 'login-as.php') ? 'class="active"' : ''; ?>>Sign Out</a>
