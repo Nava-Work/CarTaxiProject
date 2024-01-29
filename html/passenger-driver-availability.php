@@ -21,7 +21,7 @@
                     <div class="detail-headings">
                         <div class="star-rated">
                             <div class="list-rating">
-                                <span class="year">2023</span>
+                                <span class="year">2024</span>
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
                                 <i class="fas fa-star filled"></i>
@@ -30,12 +30,12 @@
                                 <span class="d-inline-block average-list-rating"> 5.0 </span>
                             </div>
                             <div class="camaro-info">
-                                <h3>Chevrolet Camaro</h3>
+                                <h3>Toyota Vitz</h3>
                                 <div class="camaro-location">
                                     <div class="camaro-location-inner">
                                         <i class="feather-map-pin me-2"></i>
                                        
-                                        <span class="me-2"> <b>Location :</b> Miami St, Destin, FL 32550, USA </span> 
+                                        <span class="me-2"> <b>Location :</b>Ghandi Park,Batticaloa </span> 
                                     </div>
                                     <div class="camaro-locations-inner">    
                                         <i class="feather-eye me-2"></i>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="details-btn">
-                        <a href="#"> <img src="assets/img/git-compare.svg" alt="Icon"> Compare</a>
+                        <a href="#"> <img src="assets/img/git-compare.svg" alt="Icon"> Reserve Now</a>
                         <a href="#"><i class="feather-heart"></i> Wishlist</a>
                     </div>				  
                 </div>
@@ -66,10 +66,10 @@
                                     <img src="assets/img/cars/slider-01.jpg" alt="Slider">
                                 </div>
                                 <div class="product-img">
-                                    <img src="assets/img/cars/slider-02.jpg" alt="Slider">
+                                    <img src="assets/img/cars/slider-01.jpg" alt="Slider">
                                 </div>
                                 <div class="product-img">
-                                    <img src="assets/img/cars/slider-03.jpg" alt="Slider">
+                                    <img src="assets/img/cars/slider-01.jpg" alt="Slider">
                                 </div>
                                 <div class="product-img">
                                     <img src="assets/img/cars/slider-04.jpg" alt="Slider">
@@ -80,17 +80,17 @@
                             </div>
                             <div class="slider slider-nav-thumbnails">
                                 <div><img src="assets/img/cars/slider-thum-01.jpg" alt="product image"></div>
-                                <div><img src="assets/img/cars/slider-thum-02.jpg" alt="product image"></div>
-                                <div><img src="assets/img/cars/slider-thum-03.jpg" alt="product image"></div>
-                                <div><img src="assets/img/cars/slider-thum-04.jpg" alt="product image"></div>
-                                <div><img src="assets/img/cars/slider-thum-05.jpg" alt="product image"></div>
+                                <div><img src="assets/img/cars/slider-thum-01.jpg" alt="product image"></div>
+                                <div><img src="assets/img/cars/slider-thum-01.jpg" alt="product image"></div>
+                                <div><img src="assets/img/cars/slider-thum-01.jpg" alt="product image"></div>
+                                <div><img src="assets/img/cars/slider-thum-01.jpg" alt="product image"></div>
                             </div>
                         </div>
                         <div class="review-sec extra-service">
                             <div class="review-header">
                                 <h4>Extra Service</h4>
                             </div>
-                            <span>Baby Seat - $10</span>
+                            <span>Baby Seat - Rs.500</span>
                         </div>
                         <!--Listing Features Section-->
                         <div class="review-sec specification-card ">
@@ -115,7 +115,7 @@
                                         </div>
                                         <div class="featues-info">
                                             <span>Make </span>
-                                            <h6> Nisssan</h6>
+                                            <h6> Toyota</h6>
                                         </div>
                                     </div>
                                     <div class="featureslist d-flex align-items-center col-xl-3 col-md-4 col-sm-6">
@@ -289,7 +289,7 @@
                                             <div class="input-block">
                                                 <label>Pickup Location</label>												
                                                 <div class="group-img">
-                                                    <input type="text" class="form-control" placeholder="45, 4th Avanue  Mark Street Sri Lanka">
+                                                    <input type="text" class="form-control" placeholder="No-15, Trinco Road, Batticaloa">
                                                 </div>
                                             </div>
                                         </li>
@@ -297,7 +297,7 @@
                                             <div class="input-block">
                                                 <label>Dropoff Location</label>												
                                                 <div class="group-img">
-                                                    <input type="text" class="form-control" placeholder="78, 10th street Laplace Sri Lanka">
+                                                    <input type="text" class="form-control" placeholder="No-43, Bailey Road, Batticaloa">
                                                 </div>
                                             </div>
                                         </li>
@@ -308,12 +308,12 @@
                                             <div class="input-block-wrapp sidebar-form">
                                                 <div class="input-block me-2">												
                                                     <div class="group-img">
-                                                    <input type="text" class="form-control datetimepicker" placeholder="04/11/2024">
+                                                    <input type="text" class="form-control datetimepicker" placeholder="29/01/2024">
                                                     </div>
                                                 </div>
                                                 <div class="input-block">											
                                                     <div class="group-img">
-                                                    <input type="text" class="form-control timepicker" placeholder="11:00 AM">
+                                                    <input type="text" class="form-control timepicker" placeholder="05:21:41 AM">
                                                     </div>
                                                 </div>
                                             </div>	
@@ -331,7 +331,7 @@
                         </div>
                         <div class="review-sec extra-service mt-0">
                             <div class="review-header">
-                                <h4>Listing Driver Details</h4>
+                                <h4>Listing Nearest Driver</h4>
                             </div>
                             <div class="owner-detail">
                                 <div class="owner-img">
@@ -351,11 +351,11 @@
                             </div>
                             <ul class="booking-list">
                                 <li>
-                                    No of Listings
+                                    No of Ratings
                                     <span>05</span>
                                 </li>
                                 <li>
-                                    No of Bookings
+                                    Successful Reservations
                                     <span>225</span>
                                 </li>
                                 <li>
@@ -364,7 +364,7 @@
                                 </li>
                             </ul>
                             <div class="message-btn">
-                                <a href="passenger-view-nearby.php" class="btn btn-order">Nearby Drivers</a>
+                                <a href="passenger-view-nearby.php" class="btn btn-order">View More</a>
                             </div>	
                         </div>
                         <div class="review-sec share-car mt-0 mb-0">
@@ -394,24 +394,24 @@
 							<div class="row">
 								<div class="col-lg-12 col-md-12">
 									<div class="available-for-ride">
-                                        <p><i class="fa-regular fa-circle-check"></i>Chevrolet Camaro is available for a ride</p>
+                                        <p><i class="fa-regular fa-circle-check"></i>Driver is available for a ride</p>
                                     </div>
 								</div>
 								<div class="col-lg-12 col-md-12">
 									<div class="row booking-info">
                                         <div class="col-md-4 pickup-address">
                                             <h5>Pickup</h5>
-                                            <p>45, 4th Avanue  Mark Street USA</p>
-                                            <span>Date & time : 11 Jan 2023</span>
+                                            <p>No-15, Trinco Road, Batticaloa</p>
+                                            <span>Date & time : 29/01/2024 05:21:41</span>
                                         </div>
                                         <div class="col-md-4 drop-address">
                                             <h5>Drop Off</h5>
-                                            <p>78, 10th street Laplace USA</p>
-                                            <span>Date & time : 11 Jan 2023</span>
+                                            <p>No-43, Bailey Road, Batticaloa</p>
+                                            <span>Date & time : 29/01/2024 05:50:41</span>
                                         </div>
                                         <div class="col-md-4 booking-amount">
                                             <h5>Booking Amount</h5>
-                                            <h6><span>$300 </span> /day</h6>
+                                            <h6><span>Rs.2000 </span></h6>
                                         </div>
                                     </div>
 								</div>
@@ -421,7 +421,7 @@
                                         <label class="custom_check">
 											<input type="checkbox" name="rememberme" class="rememberme">
 											<span class="checkmark"></span>
-                                            Baby Seat - <span class="ms-2">$10</span>
+                                            Baby Seat - <span class="ms-2">Rs.200</span>
 										</label>
                                     </div>
 								</div>
@@ -430,12 +430,12 @@
                                         <h6>Deposit Option</h6>
                                         <div class="radio radio-btn">
                                             <label>
-                                                <input type="radio" name="radio"> Pay Deposit
+                                                <input type="radio" name="radio"> Pay Online
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label>
-                                                <input type="radio" name="radio"> Full Amount
+                                                <input type="radio" name="radio"> Cash On Dropoff
                                             </label>
                                         </div>
                                     </div>
@@ -444,20 +444,20 @@
                                 <div class="col-md-6">
                                     <div class="booking-info service-tax">
                                         <ul>
-                                            <li>Booking Price <span>$300</span></li>
-                                            <li>Extra Service <span>$10</span></li>
-                                            <li>Tax <span>$5</span></li>
+                                            <li>Booking Price <span>Rs.50</span></li>
+                                            <li>Extra Service <span>Rs.200</span></li>
+                                            <li>Tax <span>Rs.0</span></li>
                                         </ul>
                                     </div>
                                     <div class="grand-total">
                                         <h5>Grand Total</h5>
-                                        <span>$315</span>
+                                        <span>Rs.2250</span>
                                     </div>
                                 </div>
 							</div>
 						</div>
 						<div class="modal-footer">
-							<a href="booking.php" class="btn btn-back">Go to Details<i class="fa-solid fa-arrow-right"></i></a>
+							<a href="booking.php" class="btn btn-back" onclick="reserveNow()">Confirm Reservation<i class="fa-solid fa-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -474,9 +474,10 @@
 		<?php include 'script.php'; ?>
 
     <script>
-    function redirectPage() {
+    function reserveNow() {
         // Redirect to the Reserve taxi page
-        window.location.href = "passenger-vehicle-list.php";
+        alert('Reserved Successful');
+        window.location.href = "booking.php";
     }
     </script>
    

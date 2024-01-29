@@ -396,8 +396,8 @@
                                            <div class="card-body">
                                                 <div class="blog-list-head d-flex">
                                                     <div class="blog-list-title">
-                                                        <h3><a href="passenger-vehicle-list.php">Ferrari 458 MM Speciale</a></h3>
-                                                        <h6>Category : <span>Ferrarai</span></h6>		
+                                                        <h3><a href="passenger-vehicle-list.php">Toyota Vitz</a></h3>
+                                                        <h6>Category : <span>Convertible</span></h6>		
                                                     </div>
                                                     <div class="blog-list-rate">
                                                         <div class="list-rating">							
@@ -408,7 +408,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -447,7 +447,7 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
@@ -484,7 +484,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -523,7 +523,7 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
@@ -560,7 +560,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -599,7 +599,7 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
