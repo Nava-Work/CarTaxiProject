@@ -30,7 +30,7 @@
 				<div class="confirm-order">
 					<div class="section-title">
 						<h3>Order Confirmation</h3>
-						<h5>Order Total : <span>$315.00</span></h5>
+						<h5>Order Total : <span>Rs.2250.00</span></h5>
 					</div>
 					<div class="booking-details order-confirm-box">
 						<div class="row">
@@ -41,8 +41,7 @@
 								</div>
 								<div class="order-car">
 									<span><img src="assets/img/detail-smallcar-img-2.jpg" alt="car"></span>
-									<h5>Chevrolet Camaro<span>$315</span></h5>
-									
+									<h5>Toyota Vitz<span>Rs.2250 | Driver: Ramesh Kumar</span></h5>
 								</div>
 							</div>
 							<div class="col-lg-6">
@@ -51,7 +50,7 @@
 									<a href="javascript:void(0)">Edit</a>
 								</div>
 								<ul class="address-info">
-									<li>Baby Seat : $10</li>
+									<li>Baby Seat : Rs.200</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
@@ -70,8 +69,8 @@
 									<a href="javascript:void(0)">Edit</a>
 								</div>
 								<ul class="address-info">
-									<li>45, 4th Avanue  Mark Street USA</li>
-									<li>11 Jan 2023 - 11:00 PM</li>
+									<li>No-15, Trinco Road, Batticaloa</li>
+									<li>29/01/2024 05:21:41</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
@@ -80,10 +79,10 @@
 									<a href="javascript:void(0)">Edit</a>
 								</div>
 								<ul class="address-info">
-									<li>Casandra</li>
-									<li><a href="https://dreamsrent.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2a494b594b444e584b6a4f524b475a464f04494547">[email&#160;protected]</a></li>
-									<li>+1 73940 45355</li>
-									<li>45, 4th Avanue  Mark Street USA</li>
+									<li>Navarasan</li>
+									<li><a href="#" class="__cf_email__">navarasan84@gmail.com</a></li>
+									<li>0715646366</li>
+									<li>No-15, Trinco Road, Batticaloa</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
@@ -92,8 +91,8 @@
 									<a href="javascript:void(0)">Edit</a>
 								</div>
 								<ul class="address-info mb-0">
-									<li>45, 4th Avanue  Mark Street USA</li>
-									<li>11 Jan 2023 - 11:00 PM</li>
+									<li>No-43, Bailey Road, Batticaloa</li>
+									<li>29/01/2024 05:50:41</li>
 								</ul>
 							</div>
 						</div>
@@ -123,227 +122,10 @@
 		</div>
 		<!-- /Modal -->
 	
-	    <!-- Footer -->
-		<footer class="footer">	
-			<!-- Footer Top -->	
-			<div class="footer-top aos" data-aos="fade-down">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-7">
-							<div class="row">
-								<div class="col-lg-4 col-md-6">
-									<!-- Footer Widget -->
-									<div class="footer-widget footer-menu">
-										<h5 class="footer-title">About Company</h5>
-										<ul>
-											<li>
-												<a href="about.html">Our Company</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Shop Toyota</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Dreamsrentals USA</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Dreamsrentals Worldwide</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Dreamsrentals Racing</a>
-											</li>	
-											<li>
-												<a href="javascript:void(0)">Dreamsrentals Racing</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Virtual Auto Show</a>
-											</li>									
-										</ul>
-									</div>
-									<!-- /Footer Widget -->
-								</div>
-								<div class="col-lg-4 col-md-6">
-									<!-- Footer Widget -->
-									<div class="footer-widget footer-menu">
-										<h5 class="footer-title">Vehicles Type</h5>
-										<ul>
-											<li>
-												<a href="javascript:void(0)">All  Vehicles</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">SUVs</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Trucks</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Cars</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Crossovers</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Electrified Vehicles</a>
-											</li>	
-											<li>
-												<a href="javascript:void(0)">Hybrids</a>
-											</li>								
-										</ul>
-									</div>
-									<!-- /Footer Widget -->
-								</div>
-								<div class="col-lg-4 col-md-6">
-									<!-- Footer Widget -->
-									<div class="footer-widget footer-menu">
-										<h5 class="footer-title">Quick links</h5>
-										<ul>
-											<li>
-												<a href="javascript:void(0)">My Account</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Champaigns</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Dreamsrental Dealers</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Deals and Incentive</a>
-											</li>
-											<li>
-												<a href="javascript:void(0)">Financial Services</a>
-											</li>	
-											<li>
-												<a href="javascript:void(0)">Dreamsrental Insurance</a>
-											</li>	
-											<li>
-												<a href="javascript:void(0)">Dreamsrental Care</a>
-											</li>								
-										</ul>
-									</div>
-									<!-- /Footer Widget -->
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="footer-contact footer-widget">
-								<h5 class="footer-title">Contact Info</h5>
-								<div class="footer-contact-info">									
-									<div class="footer-address">											
-										<span><i class="feather-phone-call"></i></span>
-										<div class="addr-info">
-											<a href="tel:+1(888)7601940">+ 1 (888) 760 1940</a>
-										</div>
-									</div>
-									<div class="footer-address">
-										<span><i class="feather-mail"></i></span>
-										<div class="addr-info">
-											<a href="https://dreamsrent.dreamstechnologies.com/cdn-cgi/l/email-protection#deadabaeaeb1acaa9ebba6bfb3aeb2bbf0bdb1b3"><span class="__cf_email__" data-cfemail="15666065657a676155706d74786579703b767a78">[email&#160;protected]</span></a>
-										</div>
-									</div>
-									<div class="update-form">
-										<form action="#">
-											<span><i class="feather-mail"></i></span> 
-											<input type="email" class="form-control" placeholder="Enter You Email Here">
-											<button type="submit" class="btn btn-subscribe"><span><i class="feather-send"></i></span></button>
-										</form>
-									</div>
-								</div>								
-								<div class="footer-social-widget">
-									<h6>Connect with us</h6>
-									<ul class="nav-social">
-										<li>
-											<a href="javascript:void(0)"><i class="fa-brands fa-facebook-f fa-facebook fi-icon"></i></a>
-										</li>
-										<li>
-											<a href="javascript:void(0)"><i class="fab fa-instagram fi-icon"></i></a>
-										</li>
-										<li>
-											<a href="javascript:void(0)"><i class="fab fa-behance fi-icon"></i></a>
-										</li>
-										<li>
-											<a href="javascript:void(0)"><i class="fab fa-twitter fi-icon"></i> </a>
-										</li>
-										<li>
-											<a href="javascript:void(0)"><i class="fab fa-linkedin fi-icon"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>					
-				</div>
-			</div>
-			<!-- /Footer Top -->
-
-			<!-- Footer Bottom -->
-			<div class="footer-bottom">
-				<div class="container">
-					<!-- Copyright -->
-					<div class="copyright">
-						<div class="row align-items-center">
-							<div class="col-md-6">
-								<div class="copyright-text">
-									<p>© 2023 Dreams Rent. All Rights Reserved.</p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<!-- Copyright Menu -->
-								<div class="copyright-menu">
-									<div class="vistors-details">
-										<ul class="d-flex">											
-											<li><a href="javascript:void(0)"><img class="img-fluid" src="assets/img/icons/paypal.svg" alt="Paypal"></a></li>											
-											<li><a href="javascript:void(0)"><img class="img-fluid" src="assets/img/icons/visa.svg" alt="Visa"></a></li>
-											<li><a href="javascript:void(0)"><img class="img-fluid" src="assets/img/icons/master.svg" alt="Master"></a></li>
-											<li><a href="javascript:void(0)"><img class="img-fluid" src="assets/img/icons/applegpay.svg" alt="applegpay"></a></li>
-										</ul>										   								
-									</div>
-								</div>
-								<!-- /Copyright Menu -->
-							</div>
-						</div>
-					</div>
-					<!-- /Copyright -->
-				</div>
-			</div>
-			<!-- /Footer Bottom -->			
-		</footer>
-		<!-- /Footer -->
+	<?php include 'footer.php'?>
 				
 	</div>
 
-    <!-- scrollToTop start -->
-	<div class="progress-wrap active-progress">
-		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
-		</svg>
-	</div>
-	<!-- scrollToTop end -->
-	
-	<!-- jQuery -->
-	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
-
-	<!-- Bootstrap Core JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>	
-	
-	<!-- Aos -->
-	<script src="assets/plugins/aos/aos.js"></script>
-
-    <!-- Slick JS -->
-    <script src="assets/plugins/slick/slick.js"></script>
-
-    <!-- Owl Carousel JS -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	
-	<!-- Top JS -->
-	<script src="assets/js/backToTop.js"></script>
-	
-	<!-- Sticky Sidebar JS -->
-	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-	<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>	
-	
-	<!-- Custom JS -->
-	<script src="assets/js/script.js"></script>
-	
+	<?php include 'script.php'?>
 </body>
-
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/booking.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:46 GMT -->
 </html>
