@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/pricing.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:34:48 GMT -->
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<title>Dreams Rent | Template</title>
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/img/favicon.png">
-	
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-	<!-- Fontawesome CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">	
-	
-	<!-- Aos CSS -->
-	<link rel="stylesheet" href="assets/plugins/aos/aos.css">
-	
-    <!-- Fearther CSS -->
-	<link rel="stylesheet" href="assets/css/feather.css">
-		
-	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
-	
-</head>
-
-<body>
+<?php include 'top.php'; ?>
 	
 	<div class="main-wrapper">
 	

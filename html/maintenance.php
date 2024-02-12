@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/maintenance.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:35:13 GMT -->
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>Dreams Rent | Template</title>
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.png">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-		
-		<!-- Fearther CSS -->
-		<link rel="stylesheet" href="assets/css/feather.css">
-		
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
+		<title>City Taxi - Cab service</title>
+		<?php include 'css.php'?>
 	</head>
     <body class="error-page">
 	
@@ -59,16 +43,8 @@
         </div>
 		<!-- /Main Wrapper -->
 		
-		<!-- jQuery -->
-		<script src="assets/js/jquery-3.7.1.min.js"></script>
-		
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		
-		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
+		<?php include 'script.php'?>
 
 	</body>
 
-<!-- Mirrored from dreamsrent.dreamstechnologies.com/html/maintenance.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Jan 2024 07:35:14 GMT -->
 </html>

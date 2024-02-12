@@ -8,7 +8,7 @@ require 'database-config.php';
     $una = $_POST["username"];
     $pass= $_POST["password"];
     $email = $_POST["email"];
-	$nic = $_POST["NIC"];
+		$nic = $_POST["NIC"];
     $phonenum = $_POST["phone_number"];
 
 
@@ -77,18 +77,7 @@ if(isset($_POST["signup"]))
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>City Taxi - Cab Service</title>
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
-		<?php include 'css.php'; ?>
-	</head>
-	<body>
+<?php include 'top.php'; ?>
 	
 		<!-- Main Wrapper -->
 		<div class="main-wrapper login-body">

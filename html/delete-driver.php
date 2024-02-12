@@ -1,4 +1,3 @@
-
 <?php
  include "database-config.php";
 
@@ -34,11 +33,6 @@
       }
     }
 
-  ?>
-    
-
+?>
 </body>
-
-
-<!-- Mirrored from htmldemo.net/presiden/presiden/my-account.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Aug 2023 03:25:51 GMT -->
 </html>

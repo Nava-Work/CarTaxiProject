@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>City Taxi - Cab Service</title>
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
-  <?php include 'css.php'; ?>
-  </head>
-  <body>
-    <div class="main-wrapper">
-    <?php include 'passenger-header.php'; ?>
-
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>City Taxi - Cab Service</title>
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
-  <?php include 'css.php'; ?>
-  </head>
-  <body>
+<?php include 'top.php'; ?>
     <div class="main-wrapper">
     <?php include 'passenger-header.php'; ?>
 
@@ -536,31 +510,14 @@
     </div>
 
     <!-- scrollToTop start -->
-    <div class="progress-wrap active-progress">
-      <svg
-        class="progress-circle svg-content"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path
-          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-          style="
-            transition: stroke-dashoffset 10ms linear 0s;
-            stroke-dasharray: 307.919px, 307.919px;
-            stroke-dashoffset: 228.265px;
-          "
-        ></path>
-      </svg>
-    </div>
-                         
-                         
-			<script>
-			function rateNow() {
-	    alert('Rated Successful');
+    <?php include 'scrollTop.php'; ?>
+                                                 
+	<script>
+		function rateNow() {
+	        alert('Rated Successful');
 			document.location.href = 'rate-drivers.php';
-      }
-			</script>
+        }
+	</script>
     <!-- scrollToTop end -->
   <?php include 'script.php'?>  
 </html>

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>City Taxi - Cab Service</title>
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
-		<?php include 'css.php'; ?>
-	</head>
-	</head>
-	<body>
+<?php include 'top.php' ?>	
     	<!-- Header -->
 			<header class="log-header">
 				<a href="index.php"><img class="img-fluid logo-dark" src="assets/img/logo.png" alt="Logo"></a>

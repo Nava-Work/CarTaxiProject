@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		<title>City Taxi - Cab Service</title>
-		
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon.ico">
-  <?php include 'css.php'; ?>
-  </head>
-
-<body>
+<?php include 'top.php'; ?>
 	
 	<div class="main-wrapper">
 	<?php include 'header.php';?>
@@ -122,23 +110,7 @@
 	</div>
 	<!-- scrollToTop end -->
 	
-	<!-- jQuery -->
-	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
-
-	<!-- Bootstrap Core JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>	
-	
-	<!-- Aos -->
-	<script src="assets/plugins/aos/aos.js"></script>
-	
-	<!-- Top JS -->
-	<script src="assets/js/backToTop.js"></script>
-	
-	<!-- Select2 JS -->
-	<script src="assets/plugins/select2/js/select2.min.js"></script>	
-	
-	<!-- Custom JS -->
-	<script src="assets/js/script.js"></script>
+	<?php include 'script.php' ?>
 	
 </body>
 </html>
