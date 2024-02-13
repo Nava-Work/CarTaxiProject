@@ -1,48 +1,33 @@
 ﻿<?php include 'top.php'; ?>
-    <div class="main-wrapper">
-      <!-- Header -->
-      <?php include 'header.php'; ?>
+<div class="main-wrapper">
+    <!-- Header -->
+    <?php include 'header.php'; ?>
 
-      
-      <!-- Banner -->
-      <?php include 'banner.php'; ?>
+    <!-- Banner -->
+    <?php include 'banner.php'; ?>
 
-      <!-- Search -->
-      <?php include 'search.php'; ?>  
+    <!-- Search -->
+    <?php include 'search.php'; ?>  
 
-      <!-- services -->
-      <?php include 'service.php'; ?>
-      
+    <!-- services -->
+    <?php include 'service.php'; ?>
 
-      <!-- Popular Cartypes -->
-      <?php include 'popularCarType.php'; ?>
-    
+    <!-- Popular Cartypes -->
+    <?php include 'popularCarType.php'; ?>
 
-      <!-- Facts By The Numbers -->
-      
-      <?php include 'factByTheNumber.php'; ?>
-      
-      <!-- Why Choose Us -->
-      <?php include 'chooseUs.php'; ?>
-  
+    <!-- Facts By The Numbers -->
+    <?php include 'factByTheNumber.php'; ?>
 
-      <!-- Footer -->
-      <?php include 'footer.php'; ?>
-    </div>
+    <!-- Why Choose Us -->
+    <?php include 'chooseUs.php'; ?>
 
-    <!-- scrollToTop start -->
-    <?php include 'scrollTop.php'; ?>
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
+</div>
 
-    <!-- scrollToTop end -->
+<!-- scrollToTop start -->
+<?php include 'scrollTop.php'; ?>
+<!-- scrollToTop end -->
 
-		<!-- JS -->
-		<?php include 'script.php'; ?>
-   
-    <script>
-    function redirectPage() {
-        // Redirect to the signup page
-        window.location.href = "register-as.php";
-    }
-    </script>
-  </body>
-</html>
+<!-- JS -->
+<?php include 'script.php'; ?>
