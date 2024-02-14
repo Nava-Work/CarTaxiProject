@@ -377,7 +377,7 @@
                                 <div class="card">
                                     <div class="blog-widget d-flex">
                                         <div class="blog-img">
-                                            <a href="listing-details.php">
+                                            <a href="passenger-vehicle-list.php">
                                                 <img src="assets/img/car-list-1.jpg" class="img-fluid" alt="blog-img">
                                             </a>														    
                                         </div>
@@ -385,8 +385,8 @@
                                            <div class="card-body">
                                                 <div class="blog-list-head d-flex">
                                                     <div class="blog-list-title">
-                                                        <h3><a href="listing-details.php">Ferrari 458 MM Speciale</a></h3>
-                                                        <h6>Category : <span>Ferrarai</span></h6>		
+                                                        <h3><a href="passenger-vehicle-list.php">Toyota Vitz</a></h3>
+                                                        <h6>Category : <span>Convertible</span></h6>		
                                                     </div>
                                                     <div class="blog-list-rate">
                                                         <div class="list-rating">							
@@ -397,7 +397,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -436,12 +436,12 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
                                                     <div class="listing-button">
-                                                        <a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
+                                                        <a href="passenger-driver-availability.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
                                                     </div>
                                                 </div>	
                                             </div>					 
@@ -453,7 +453,7 @@
                                 <div class="card">
                                     <div class="blog-widget d-flex">
                                         <div class="blog-img">
-                                            <a href="listing-details.php">
+                                            <a href="passenger-vehicle-list.php">
                                                 <img src="assets/img/car-list-2.jpg" class="img-fluid" alt="blog-img">
                                             </a>														    
                                         </div>
@@ -461,7 +461,7 @@
                                            <div class="card-body">
                                                 <div class="blog-list-head d-flex">
                                                     <div class="blog-list-title">
-                                                        <h3><a href="listing-details.php">Ferrari 458 MM Speciale</a></h3>
+                                                        <h3><a href="passenger-vehicle-list.php">Ferrari 458 MM Speciale</a></h3>
                                                         <h6>Category : <span>BMW</span></h6>		
                                                     </div>
                                                     <div class="blog-list-rate">
@@ -473,7 +473,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -512,12 +512,12 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
                                                     <div class="listing-button">
-                                                        <a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
+                                                        <a href="passenger-driver-availability.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
                                                     </div>
                                                 </div>	
                                             </div>					 
@@ -529,7 +529,7 @@
                                 <div class="card">
                                     <div class="blog-widget d-flex">
                                         <div class="blog-img">
-                                            <a href="listing-details.php">
+                                            <a href="passenger-vehicle-list.php">
                                                 <img src="assets/img/car-list-3.jpg" class="img-fluid" alt="blog-img">
                                             </a>														    
                                         </div>
@@ -537,7 +537,7 @@
                                            <div class="card-body">
                                                 <div class="blog-list-head d-flex">
                                                     <div class="blog-list-title">
-                                                        <h3><a href="listing-details.php">Ferrari 458 MM Speciale</a></h3>
+                                                        <h3><a href="passenger-vehicle-list.php">Ferrari 458 MM Speciale</a></h3>
                                                         <h6>Category : <span>Ford</span></h6>		
                                                     </div>
                                                     <div class="blog-list-rate">
@@ -549,7 +549,7 @@
                                                             <i class="fas fa-star filled"></i>
                                                             <span>(5.0)</span>
                                                         </div>
-                                                        <h6>$400 <span>/ Day</span></h6>
+                                                        <h6>Rs.2000 <span>/ Day</span></h6>
                                                     </div>
                                                 </div>	
                                                 <div class="listing-details-group">
@@ -588,12 +588,12 @@
                                                             </div>
                                                             <div class="address-info">
                                                                 <h5><a href="#">Toyota Of Lincoln Park</a></h5>
-                                                                <h6><i class="feather-map-pin me-2"></i>Newyork, USA</h6>
+                                                                <h6><i class="feather-map-pin me-2"></i>Batticaloa,Sri Lanka</h6>
                                                             </div>
                                                         </div>	
                                                     </div>
                                                     <div class="listing-button">
-                                                        <a href="listing-details.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
+                                                        <a href="passenger-driver-availability.php" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Reserve Now</a>
                                                     </div>
                                                 </div>	
                                             </div>					 
@@ -648,14 +648,7 @@
 		<?php include 'footer.php';?>
 
 	</div>
-
-    <!-- scrollToTop start -->
-	<div class="progress-wrap active-progress">
-		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 228.265px;"></path>
-		</svg>
-	</div>
-	<!-- scrollToTop end -->
+	<?php include 'scrollTop.php' ?>
 	
 	<?php include 'script.php' ?>
 	

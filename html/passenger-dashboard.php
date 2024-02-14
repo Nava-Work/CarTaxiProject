@@ -7,7 +7,7 @@
       <?php include 'banner.php'; ?>
       
       <!-- Search -->
-      <?php include 'search.php'; ?>  
+      <?php include 'passenger-search.php'; ?>  
 
       <!-- services -->
       <?php include 'service.php'; ?>

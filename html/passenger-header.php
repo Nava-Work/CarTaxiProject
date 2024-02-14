@@ -12,7 +12,7 @@
                   <span></span>
                 </span>
               </a>
-              <a href="index.php" class="navbar-brand logo">
+              <a href="passenger-dashboard.php" class="navbar-brand logo">
                 <img src="assets/img/logo.png" class="img-fluid" alt="Logo" width="400"/>
               </a>
               <a href="index.php" class="navbar-brand logo-small" >

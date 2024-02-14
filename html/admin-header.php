@@ -36,6 +36,7 @@
                     <ul class="submenu">
                         <li <?php echo ($currentPage == 'admin-manage-passenger.php') ? 'class="active"' : ''; ?>><a href="admin-manage-passenger.php">Passenger</a></li>
                         <li <?php echo ($currentPage == 'admin-manage-driver.php') ? 'class="active"' : ''; ?>><a href="admin-manage-driver.php">Drivers</a></li>
+                        <li <?php echo ($currentPage == 'admin-manage-vehicle.php') ? 'class="active"' : ''; ?>><a href="admin-manage-vehicle.php">Vehicles</a></li>
                         <li <?php echo ($currentPage == 'admin-manage-reserve.php') ? 'class="active"' : ''; ?>><a href="admin-manage-reserve.php">Reservations</a></li>
                         <li <?php echo ($currentPage == 'admin-view-rate.php') ? 'class="active"' : ''; ?>><a href="admin-view-rate.php">Ratings</a></li>
                     </ul>

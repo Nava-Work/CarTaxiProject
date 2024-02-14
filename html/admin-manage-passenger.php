@@ -32,7 +32,7 @@ $output = mysqli_query($conn, $sql);
                                 <th>ID</th>
                                 <th>Name</th>
                                 <th>Username</th>
-                                <th>Password</th>
+                                <!-- <th>Password</th> -->
                                 <th>Email</th>
                                 <th>Phone Number</th>
                                 <th>Action</th>
@@ -50,7 +50,7 @@ $output = mysqli_query($conn, $sql);
                                     echo "<td>" . $r['pass_id'] . "</td>";
                                     echo "<td>" . $r['name'] . "</td>";
                                     echo "<td>" . $r['username'] . "</td>";
-                                    echo "<td>" . $r['password'] . "</td>";
+                                    //echo "<td>" . $r['password'] . "</td>";
                                     echo "<td>" . $r['email'] . "</td>";
                                     echo "<td>" . $r['phone_number'] . "</td>";
                                     echo "<td>";

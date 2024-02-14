@@ -13,7 +13,7 @@
 							</div>
 							<h1>Sign In As</h1>						
 							<form action="index.php">
-								<a href="login.php" class="btn btn-outline-light w-100 btn-size mt-1">Passenger</a>
+								<a href="passenger-login.php" class="btn btn-outline-light w-100 btn-size mt-1">Passenger</a>
                 <a href="driver-login.php" class="btn btn-outline-light w-100 btn-size mt-1">Driver</a>
                 <a href="admin-login.php" class="btn btn-outline-light w-100 btn-size mt-1">Admin</a>
                 <div class="text-center dont-have">Don't have an account yet? <a href="register-as.php">Register</a></div>

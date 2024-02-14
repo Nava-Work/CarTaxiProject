@@ -16,7 +16,7 @@
                 </p>
                 <div class="view-all">
                   <a
-                    href="listing-grid.php"
+                    href="listing-list.php"
                     class="btn btn-view d-inline-flex align-items-center"
                     >View all Cars
                     <span><i class="feather-arrow-right ms-2"></i></span

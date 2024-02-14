@@ -1,4 +1,4 @@
-<?php include 'login-process.php'?>
+<?php include 'passenger-login-process.php'?>
 	
 <?php include 'top.php'?>
 	
@@ -20,7 +20,7 @@
 							<h1>Sign In</h1>
 							<p class="account-subtitle">We'll send a confirmation mail to your email.</p>								
 							
-							<form action="login.php" method="post" autocomplete="off">
+							<form action="passenger-login.php" method="post" autocomplete="off">
 								
 							<div class="input-block">
 									<label class="form-label">Username <span class="text-danger">*</span></label>
