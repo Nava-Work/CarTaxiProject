@@ -104,7 +104,7 @@ function showError(error) {
 									<a href="#" class="d-flex align-items-center justify-content-center input-block btn google-login w-100"><span><img src="assets/img/icons/facebook.svg" class="img-fluid" alt="Facebook"></span>Log in with Facebook</a>
 								</div>
 								<!-- /Social Login -->
-								<div class="text-center dont-have">Already have an Account? <a href="login.php">Sign In</a></div>
+								<div class="text-center dont-have">Already have an Account? <a href="login-as.php">Sign In</a></div>
 							</form>							
 						</div>
 					</div>
