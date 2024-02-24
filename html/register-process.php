@@ -20,7 +20,7 @@ require 'database-config.php';
 			"
 			<script>
 			alert('Registration Successful');
-			document.location.href = 'login.php';
+			document.location.href = 'login-as.php';
 			</script>
 			"
 			;
